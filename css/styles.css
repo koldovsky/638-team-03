@@ -1,4 +1,7 @@
 /* about-us */
+.posts{
+    display: flex;
+}
 .post__photo{
     width: 217px;
     height: 140px;
