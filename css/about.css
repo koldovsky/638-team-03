@@ -1,9 +1,26 @@
 /* about-us */
+.container__about{
+    display: flex;
+    margin: 30px 15px 0 15px;
+}
+.about__logo{
+    padding: 0 25px 0 25px ;
+}
+.about-us__text{
+    padding-left: 50px;
+}
 .posts{
     display: flex;
+    margin: 30px 15px 0 15px;
+
+}
+.post__shipping, .post__fabrics, .post__discount,.post__pay{
+    width: 250px;
+    height: 280px;
+    margin-left: 60px;
 }
 .post__photo{
-    width: 217px;
+    width: 250px;
     height: 140px;
 }
 .about__logo{
