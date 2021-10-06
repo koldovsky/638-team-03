@@ -8,6 +8,7 @@
     <title>Handmade Lingerie Website Template Demo</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
         <div class="menu">
@@ -29,11 +30,11 @@
             <img class="youtube-logo" src="img/youtube-logo.png" alt="YouTube logo">
         </div>
     </header>
-    <main class="main">
+    <main>
         <div class="container" id="about-us">
-            <img class="img2" src="img/about-us/img-2.webp" alt="">
+            <img class="about__logo" src="img/about-us/logowoman.webp" alt="wooman__stay">
             <section class="about-us__text">
-                <h2>Handmade Lingerie</h2>
+                <h2>— Handmade Lingerie</h2>
                 <div class="about-us__content">
                     We offer luxurious lingerie designed to make you feel comfortable and gorgeous.
 
@@ -51,34 +52,57 @@
                     <li>Different styles</li>
                 </ul>
             </section>
-            <div class="post__1">
-                <img class="post__photo" src="img/about-us/post-1.svg" alt="">
-                <div class="post__text">Free Shipping.</div>
-                <div class="post__content">We offer free shipping on all offers starting from $100. We ship to any city
-                    in the USA.</div>
-            </div>
-            <div class="post__2">
-                <img class="post__photo" src="img/about-us/post-2.svg" alt="">
-                <div class="post__text">Natural Fabrics.</div>
-                <div class="post__content">We use only natural cotton, silk, lace, and other soft and good-looking
-                    materials.</div>
-            </div>
-            <div class="post__3">
-                <img class="post__photo" src="img/about-us/post-3.svg" alt="">
-                <div class="post__text">Discount System.</div>
-                <div class="post__content">Starting from you first purchase, you get a 5% discount on your next orders.
+            <div class="posts">
+                <div class="post__shipping">
+                    <img class="post__photo" src="img/about-us/shipping..svg" alt="free shipping">
+                    <div class="post__text">Free Shipping.</div>
+                    <div class="post__content">We offer free shipping on all offers starting from $100. We ship to any
+                        city
+                        in the USA.</div>
+                </div>
+                <div class="post__fabrics">
+                    <img class="post__photo" src="img/about-us/fabrics.svg" alt="natural fabrics">
+                    <div class="post__text">Natural Fabrics.</div>
+                    <div class="post__content">We use only natural cotton, silk, lace, and other soft and good-looking
+                        materials.</div>
+                </div>
+                <div class="post__discount">
+                    <img class="post__photo" src="img/about-us/discount.svg" alt="discount system">
+                    <div class="post__text">Discount System.</div>
+                    <div class="post__content">Starting from you first purchase, you get a 5% discount on your next
+                        orders.
+                    </div>
+                </div>
+                <div class="post__pay">
+                    <img class="post__photo" src="img/about-us/pay.svg" alt="pay after">
+                    <div class="post__text">Pay After.</div>
+                    <div class="post__content">You can pay only after the delivery or at the moment of the order
+                        confirmation.</div>
                 </div>
             </div>
-            <div class="post__4">
-                <img class="post__photo" src="img/about-us/post-4.svg" alt="">
-                <div class="post__text">Pay After.</div>
-                <div class="post__content">You can pay only after the delivery or at the moment of the order
-                    confirmation.</div>
+        </div>
+
+        <div class="container" id="bestsellers">
+            
+            <div class="bestsellers__text">
+                <h2>— Bestsellers</h2>
+                <p>The best occasional and day-to-day lingerie</p>
+            </div>
+           <div class="bestsellers__slide__gallery">
+               <img src="img/bestsellers/basic__underwear.webp" alt="basic_black_underwear_woman">
+               <input type="button" value="Browse">
+               <!-- <img src="img/bestsellers/limited__underwear.webp" alt="limited_nude_underwear_woman">
+               <img src="img/bestsellers/sets__underwear.webp" alt="sets_nude_underwear_woman">
+               <img src="img/bestsellers/swimwear__underwear.webp" alt="swimwear_underwear_white_woman"> -->
+           </div>
+            <div class="bestsellers__content">
+                <img src="img/bestsellers/cotton__underwear.webp" alt="cotton_underwear_woman">
+                <div class="bestsellers__content__title">100% Cotton</div>
+                <div class="bestsellers__content__text">All basic sets from the latest collection.</div>
             </div>
         </div>
-        <div id="bestsellers">
-            <p>Bestsellers</p>
-        </div>
+
+
         <div id="collections">
             <p>Our Collection</p>
             <p>Choose your favorite style and buy the lingerie you'll love to wear!</p>
@@ -157,7 +181,7 @@
         <div id="subscribe">
             <p>Subscribe</p>
             <p>And get -10% discount</p>
-            <input type="email" placeholder="Email"> 
+            <input type="email" placeholder="Email">
             <button type="submit">Submit</button>
         </div>
         <div id="lookbook">

@@ -1,3 +1,15 @@
+/* about-us */
+.post__photo{
+    width: 217px;
+    height: 140px;
+}
+.about__logo{
+    width: 500px;
+    height: 572px;
+}
+/* bestsellers */
+
+/*  */
 img.facebook-logo, .istagram-logo, .youtube-logo {
     width: 20px;
     height: 20px;
