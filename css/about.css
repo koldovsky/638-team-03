@@ -1,0 +1,12 @@
+/* about-us */
+.posts{
+    display: flex;
+}
+.post__photo{
+    width: 217px;
+    height: 140px;
+}
+.about__logo{
+    width: 500px;
+    height: 572px;
+}
