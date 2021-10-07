@@ -9,12 +9,18 @@ img.image-in-menu {
     width: 150px;
     height: 150px;
 }
+div.menu {
+    color: #303030;
+    font-family: monospace;
+}
 div.telephone {
     color: #c5af93;
     font-weight: bold;
 }
 p.handmade {
     color: #c5af93;
+    font-style: italic;
+    text-transform: uppercase;
 }
 p.lingerie {
     font-family: Garamond,serif;
