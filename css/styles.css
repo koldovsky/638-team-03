@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
 img.facebook-logo, .istagram-logo, .youtube-logo {
     width: 20px;
     height: 20px;
@@ -6,4 +8,14 @@ img.facebook-logo, .istagram-logo, .youtube-logo {
 img.image-in-menu {
     width: 150px;
     height: 150px;
+}
+div.telephone {
+    color: #c5af93;
+    font-weight: bold;
+}
+p.handmade {
+    color: #c5af93;
+}
+p.lingerie {
+    font-family: Garamond,serif;
 }
