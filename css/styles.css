@@ -23,7 +23,8 @@ ul.burger-menu-list {
     padding: 0px;
 }
 li.burger-menu-li {
-    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 a.burger-menu-a {
