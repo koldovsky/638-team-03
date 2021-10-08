@@ -11,6 +11,8 @@ img.image-in-menu {
 }
 div.menu {
     color: #303030;
+    margin-left: 15px;
+    margin-top: 25px;
 }
 div.burger-menu {
     color: #303030;
