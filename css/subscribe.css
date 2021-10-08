@@ -3,7 +3,7 @@
     position: relative;
     background-color:rgb(212, 191, 173);
 }
-p{
+p.subscribe{
     color:white;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
