@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.image-in-footer{
+    width: 150px;
+    height: auto;
+}
+footer {
+    text-align:center;
+}
+ul.footer-upper-left-container, .footer-lower-right-container, .footer-link{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+    text-decoration: none;
+
+}
