@@ -3,21 +3,46 @@
 .image-in-footer{
     height: auto;
     width: 150px;
-
 }
+
+/* footer position */
 footer {
     padding:80px 0 30px 0;
     text-align:center;
 }
+
+/* link groups styles */
 ul.footer-upper-left-container, .footer-lower-right-container, .footer-link{
     color: #555555;
     font-family: 'Fira Sans', sans-serif;
     padding: 0;
     margin-top: 50px;
     text-decoration: none;
-
 }
+
+/* spase between links */
 .footer-link-line{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
+
+/* form defaults */
+.footer-email-field, .footer-subscribe-button{
+    all: initial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-email-field{
+    
+}
+
+/* .footer-subscribe-button{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+
+} */
