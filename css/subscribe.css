@@ -1,0 +1,36 @@
+/* subscribe */
+.subscribe{
+    position: relative;
+    background-color:rgb(212, 191, 173);
+}
+p.subscribe{
+    color:white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    position: relative;
+   }
+p1{
+    font-family:"Fira Sans", sans-serif;
+    font-size: 18px;
+    color: white;
+    }
+input{
+    font-family:"Fira Sans", sans-serif;
+    font-size:16px;
+    font-stretch:100%;
+}
+button{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    width: 308px;
+    height: 48px;
+}
+input{
+    text-align: left;
+    color:blanchedalmond;
+    background-color: rgb(212, 191, 173);
+    width: 308px;
+    height: 48px;
+}

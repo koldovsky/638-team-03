@@ -17,7 +17,8 @@
 .post__shipping, .post__fabrics, .post__discount,.post__pay{
     width: 250px;
     height: 280px;
-    margin-left: 60px;
+   justify-content: space-between;
+   margin-right: 60px;
 }
 .post__photo{
     width: 250px;

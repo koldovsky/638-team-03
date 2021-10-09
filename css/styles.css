@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+div.menu {
+    color: #303030;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+div.burger-menu {
+    color: #303030;
+    font-family: monospace;
+    text-decoration: none;
+    text-align: center;
+}
+ul.burger-menu-list {
+    list-style-type: none;
+    padding: 0px;
+}
+li.burger-menu-li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+a.burger-menu-a {
+    color: #303030;
+    font-family: monospace;
+    text-decoration: none;
+    font-family: fira sans;
+}
+div.telephone {
+    color: #c5af93;
+    font-weight: bold;
+}
+p.handmade {
+    color: #c5af93;
+    font-style: italic;
+    text-transform: uppercase;
+}
+p.lingerie {
+    font-family: Garamond,serif;
+}
