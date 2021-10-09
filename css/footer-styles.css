@@ -17,6 +17,7 @@ ul.footer-upper-left-container, .footer-lower-right-container, .footer-link{
     font-family: 'Fira Sans', sans-serif;
     padding: 0;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-decoration: none;
 }
 
@@ -29,20 +30,21 @@ ul.footer-upper-left-container, .footer-lower-right-container, .footer-link{
 /* form defaults */
 .footer-email-field, .footer-subscribe-button{
     all: initial;
-    margin: 0;
-    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 25px 0 25px 0;
     text-align: center;
+    background-color: burlywood;          /*<------------------Delete me after all!!*/
     width: 100%;
 }
 
 .footer-email-field{
+    color: #6b6b6b;
+}
+
+.footer-subscribe-button{
     
 }
 
-/* .footer-subscribe-button{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-
-} */
+hr {
+    size: 1px  #6b6b6b;
+}
