@@ -2,6 +2,14 @@
     padding: 90px 0 50px 0;
     max-width: 980px;
     margin: auto;
+    font-family: "Fira Sans", sans-serif;
+}
+.post__content{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6b6b6b;
+    text-align: center;
 }
 
 .about__logo{
@@ -69,11 +77,19 @@
 .post__shipping, .post__fabrics, .post__discount,.post__pay{
     width: 250px;
     height: 280px;
+    padding-right: 20px;
 
 }
 .post__photo{
     width: 250px;
-    height: 140px;
+    height: 150px;
+}
+.post__text{
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
 }
 @media (min-width: 600px){
 
