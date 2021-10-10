@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Fira+Sans:wght@100;400&display=swap');
 
+.collections {
+    background-color: #f6f0e9;
+}
 img.alice-smith, .julia-sheffeld, .tania-gordons {
     width: 120px;
     border-radius: 50%;
