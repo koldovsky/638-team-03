@@ -13,8 +13,9 @@ footer {
 
 /* link groups styles */
 ul.footer-upper-left-container, .footer-lower-right-container, .footer-link{
-    color: #555555;
+    color: rgb(85, 85, 85);
     font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
     padding: 0;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -26,25 +27,53 @@ ul.footer-upper-left-container, .footer-lower-right-container, .footer-link{
     margin-top: 20px;
     margin-bottom: 20px;   
 }
+.subscribe-form-container{
+    padding: 0 25px 30px 25px;
+}
 
 /* form defaults */
 .footer-email-field, .footer-subscribe-button{
     all: initial;
     font-family: 'Fira Sans', sans-serif;
-    padding: 25px 0 25px 0;
+    padding: 16px 0 16px 0;
     text-align: center;
-    background-color: burlywood;          /*<------------------Delete me after all!!*/
     width: 100%;
 }
 
 .footer-email-field{
-    color: #6b6b6b;
+    
+    background-color: rgba(203, 203, 203, 0.12);
+    cursor: text;
 }
+::placeholder{
+    color: rgba(107, 107, 107, 0.5); 
+   }
 
 .footer-subscribe-button{
-    
+    background-color: rgb(197, 175, 147);
+    cursor: pointer;
+    margin-top: 25px;
+    line-height: 16px;
+}
+.footer-button-text{
+    color: rgb(255, 255, 255);
+    text-decoration-style: solid;
+    font-weight: 700;
 }
 
 hr {
-    size: 1px  #6b6b6b;
+    margin: 0 25px 0 25px;
+    size: 1px;
+    border-color: rgba(48, 48, 48, 0.199);
+    
 }
+
+.copyright-line{
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(107, 107, 107);
+
+}
+    
+
