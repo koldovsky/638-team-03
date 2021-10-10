@@ -1,30 +1,98 @@
-/* about-us */
-.container__about{
-    display: flex;
-    margin: 30px 15px 0 15px;
+#about-us{
+    padding: 90px 0 50px 0;
+    max-width: 980px;
+    margin: auto;
 }
+
 .about__logo{
+    max-width: 275px;
+    max-height: 289px;
     padding: 0 25px 0 25px ;
+    margin-left: 5px;
+}
+
+.about-us__title-span{
+    color: #f6f0e9;
+    font-size: 40px;
+}
+#about-us__title{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #303030;
+    margin-left: 25px;
+}
+.about-us__title-text{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    line-height: 30px;
+    margin: 25px;
 }
 .about-us__text{
-    padding-left: 50px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin: 25px ;
 }
-.posts{
-    display: flex;
-    margin: 30px 15px 0 15px;
+.about-us__ullist{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+    color: #858282;
+    margin: 50px ;
+}
+@media (min-width: 750px){
 
+    main .container__about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    
+    main .about__logo{
+        max-width: 570px;
+        max-height: 700px;
+    }
+
+    main #about-us__title{
+        font-size: 60px;
+        line-height: 66px;
+    }
 }
+
 .post__shipping, .post__fabrics, .post__discount,.post__pay{
     width: 250px;
     height: 280px;
-   justify-content: space-between;
-   margin-right: 60px;
+
 }
 .post__photo{
     width: 250px;
     height: 140px;
 }
-.about__logo{
-    width: 500px;
-    height: 572px;
+@media (min-width: 600px){
+
+    main .posts{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (min-width: 720px){
+
+    main .posts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1000px){
+
+    main .posts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
