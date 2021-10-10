@@ -8,7 +8,13 @@ h1.subscribe{
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     position: relative;
-   }
+}
+h1.lookbook{
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    position: relative;
+}  
 p{
     font-family:"Fira Sans", sans-serif;
     font-size: 18px;
