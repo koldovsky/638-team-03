@@ -1,3 +1,6 @@
+*{
+    margin: auto;
+}
 .bestsellers__text{
     color:black;
     text-transform: uppercase;
@@ -7,7 +10,8 @@
     width: 390px;
     height: 460px;
 }
-.bestsellers__content__photo{
+#bestsellers__content__photo{
+    margin: 60px 120px 0 120px;
     width: 1170px;
     height: 596px;
 }
@@ -19,13 +23,15 @@
     font-size: 90px;
     position: absolute;
 	top: 200px;
-	left: 50px;
+	left: 120px;
 	width: 100%;
+    color: white;
 }
 .bestsellers__content__text{
     font-size: 20px;
     position: absolute;
 	top: 350px;
-	left: 50px;
+	left: 140px;
 	width: 100%;
+    color: white;
 }

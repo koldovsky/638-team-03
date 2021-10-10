@@ -1,6 +1,14 @@
 body {
     font-family: 'Courier New', Courier, monospace;
 }
+img.facebook-logo, .istagram-logo, .youtube-logo {
+    width: 20px;
+    height: 20px;
+}
+img.image-in-menu {
+    width: 150px;
+    height: auto;
+}
 div.menu {
     color: #303030;
     margin-left: 15px;
