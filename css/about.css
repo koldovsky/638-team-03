@@ -50,29 +50,12 @@
 .about-us__ullist{
     font-family: "Fira Sans", sans-serif;
     font-weight: 400;
-    size: 16px;
+    font-size: 16px;
     line-height: 24px;
     color: #858282;
     margin: 50px ;
 }
-@media (min-width: 750px){
 
-    main .container__about{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10px;
-    }
-    
-    main .about__logo{
-        max-width: 570px;
-        max-height: 700px;
-    }
-
-    main #about-us__title{
-        font-size: 60px;
-        line-height: 66px;
-    }
-}
 
 .post__shipping, .post__fabrics, .post__discount,.post__pay{
     width: 250px;
@@ -91,6 +74,9 @@
     padding-bottom: 10px;
     text-align: center;
 }
+
+/* Media */
+
 @media (min-width: 600px){
 
     main .posts{
@@ -103,6 +89,24 @@
     main .posts{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 750px){
+
+    main .container__about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    
+    main .about__logo{
+        max-width: 570px;
+        max-height: 700px;
+    }
+
+    main #about-us__title{
+        font-size: 60px;
+        line-height: 66px;
     }
 }
 @media (min-width: 1000px){
