@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Fira+Sans:wght@100;400&display=swap');
+
+.Our_Collection_text {
+    font-size: 40px;
+    font-family: "Cormorant Garamond", sans-serif;
+    text-align: center;
+    color: rgb(48, 48, 48);
+}
+.collection__content {    
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+}
+#Limited, #Lingerie-Sets  {
+    text-align: left;
+    color: rgb(107, 107, 107);
+    font-size: 18px;
+}
+
+.price_collection {
+    color: rgb(197, 175, 147);
+}
+
 img.flora, .tamara, .judie, .helena {
     width: 373.5px;
 }
@@ -6,7 +33,16 @@ img.erica, .lilly, .caroline, .eloise {
     width: 373.5px;
 }
 
-img.alice-smith, .julia-sheffeld, .tania-gordons {
-    width: 120px;
-    border-radius: 50%;
+.button {
+    color: white; 
+    height: 52px;      
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    width: 151.672px;
+
 }
+.button:hover {
+    color: white;
+    background-color: #a6a6a6;
+}
+
