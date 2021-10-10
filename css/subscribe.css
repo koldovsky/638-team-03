@@ -3,13 +3,13 @@
     position: relative;
     background-color:rgb(212, 191, 173);
 }
-h1.subscribe{
+h1{
     color:white;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     position: relative;
 }
-h1.lookbook{
+h2{
     color: black;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
