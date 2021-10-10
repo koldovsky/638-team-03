@@ -3,13 +3,19 @@
     position: relative;
     background-color:rgb(212, 191, 173);
 }
-p.subscribe{
+h1{
     color:white;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     position: relative;
-   }
-p1{
+}
+h2{
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    position: relative;
+}  
+p{
     font-family:"Fira Sans", sans-serif;
     font-size: 18px;
     color: white;
