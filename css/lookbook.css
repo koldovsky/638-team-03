@@ -2,4 +2,5 @@
 .lookbook img{
     width: 357px;
     height: 326px;
+    object-fit: cover;
 }
