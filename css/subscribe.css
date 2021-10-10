@@ -3,13 +3,13 @@
     position: relative;
     background-color:rgb(212, 191, 173);
 }
-p.subscribe{
+h1.subscribe{
     color:white;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     position: relative;
    }
-p1{
+p{
     font-family:"Fira Sans", sans-serif;
     font-size: 18px;
     color: white;
