@@ -23,7 +23,12 @@ div.burger-menu {
     text-decoration: none;
     text-align: center;
 }
-ul.burger-menu-list {
+
+#burger-checkbox {
+    display: none;
+}
+
+ul.burger-menu-ul {
     list-style-type: none;
     padding: 0px;
 }
