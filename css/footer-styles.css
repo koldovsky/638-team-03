@@ -75,9 +75,10 @@ color: rgb(197, 175, 147);
 }
 
 hr {
-    border-width: 1px;
+    border-width: 0.5px;
     border-color: rgba(255, 255, 255, 0.199);
-    background-color: rgba(48, 48, 48, 0.199) ;
+    background-color: rgba(48, 48, 48, 0.199);
+    width: 95%;
     
 }
 
@@ -85,8 +86,9 @@ hr {
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
     color: rgb(107, 107, 107);
-    margin-top: 20px;
     text-align: center;
+    margin: auto;
+    width: 95%;
     
 
 
@@ -94,17 +96,19 @@ hr {
 @media (min-width: 750px){
     footer{
         padding: 0;
-        max-width: 100%;
+        width: 80%;
+        margin: auto;
     }
+
     footer>div{
         display: flex;
-        width: 100%;
-
-
+        width: 95%;
+        margin: auto;
     }
+
     .footer-upper-left-container, .footer-lower-right-container, .footer-link, .image-in-footer-container{
         margin: auto;
-
+        width: 25%;
     }
 
     .subscribe-form-container{
