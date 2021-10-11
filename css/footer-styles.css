@@ -75,11 +75,12 @@ color: rgb(197, 175, 147);
     background-color: rgb(48, 48, 48);
 }
 
-hr {
-    border-width: 0.5px;
-    border-color: rgba(255, 255, 255, 0.199);
-    background-color: rgba(48, 48, 48, 0.199);
-    width: 95%;
+.hr-footer {
+    margin: auto;
+    margin-bottom: 30px; 
+    border-width: 1px;
+    background-color: rgba(48, 48, 48, 0.795);
+    width: 93%;
     
 }
 
@@ -113,10 +114,13 @@ hr {
     }
 
     .subscribe-form-container{
-      /* padding: 30px 25px 30px 25px; */
       padding: 0;
       margin: auto;
 
+    }
+
+    .hr-footer{
+        width: 95%;
     }
 
     .copyright-lines{
