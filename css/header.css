@@ -1,8 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap')
+header.container-header {
+    font-family: 'Fira Sans', sans-serif;
+}
 img.facebook-logo, .istagram-logo, .youtube-logo {
     width: 20px;
     height: 20px;
 }
 img.image-in-menu {
     width: 150px;
-    height: 150px;
+    height: auto;
+}
+div.menu {
+    color: #303030;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+div.burger-menu {
+    color: #303030;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+ul.burger-menu-list {
+    list-style-type: none;
+    padding: 0px;
+}
+li.burger-menu-li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+a.burger-menu-a {
+    color: #303030;
+    font-family: monospace;
+    text-decoration: none;
+    font-family: 'fira sans';
+}
+div.telephone {
+    color: #c5af93;
+    font-weight: bold;
+}
+div.text-in-background {
+    height: 568px;
+    background-image: url(../img/header/backgroud-girl-header.webp);
+}
+p.handmade {
+    color: #c5af93;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+p.handmade {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+p.lingerie {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 64px;
 }
