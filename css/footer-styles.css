@@ -62,6 +62,7 @@ color: rgb(197, 175, 147);
     cursor: pointer;
     margin-top: 25px;
     line-height: 16px;
+    transition: background-color 0.5s;
 }
 
 .footer-button-text{
