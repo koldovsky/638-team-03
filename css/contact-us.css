@@ -2,3 +2,27 @@
     width: 30px;
     height: 30px;
 }
+
+.contact-us-content {
+    margin-top: 50px;
+    padding: 0 15px;
+}
+
+.contact-us-header {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line-before-contact-us {
+    color: rgb(246, 240, 233);
+    font-style: normal;
+}
+
+.contact-us-paragraph {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+
