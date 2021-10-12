@@ -8,8 +8,7 @@
     <title>Handmade Lingerie Website Template Demo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Fira+Sans&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Fira+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
@@ -22,46 +21,91 @@
     <link rel="stylesheet" href="css/lookbook.css">
 </head>
 <body>
-    <header class="conteiner-header">
-        <div class="menu">
-            <a href="#">
-                <img class="image-in-menu" src="img/image-in-menu.svg" alt="Main image">
-            </a>
-        </div>
-        <div class="burger-menu">
-            <label class="burger-icon" for="burger-checkbox">☰</label>
-            <input type="checkbox" id="burger-checkbox"/>
-            <div class="burger-menu-list">
-                <ul class="burger-menu-ul">
-                    <li class="burger-menu-li">
-                        <a class="burger-menu-a" href="#about-us">About Us</a>
-                    </li>
-                    <li class="burger-menu-li">
-                        <a class="burger-menu-a" href="#bestsellers">Bestsellers</a>
-                    </li>
-                    <li class="burger-menu-li">
-                        <a class="burger-menu-a" href="#collections">Collections</a>
-                    </li>
-                    <li class="burger-menu-li">
-                        <a class="burger-menu-a" href="#lookbook">Lookbook</a>
-                    </li>
-                    <li class="burger-menu-li">
-                        <a class="burger-menu-a" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="burger-menu-li">
-                        <a class="burger-menu-a" href="#ambassadors">Ambassadors</a>
-                    </li>
-                    <li class="burger-menu-li">
-                        <a class="burger-menu-a" href="#contact-us">Contact Us</a>
-                    </li>
-                </ul>
-                <div class="telephone">
-                    <p>+380 97 123 1234</p>
-                </div>
-                <div class="social-icons">
-                    <img class="facebook-logo" src="img/header/facebook-logo.png" alt="Facebook logo">
-                    <img class="istagram-logo" src="img/header/instagram-logo.svg" alt="Instagram logo">
-                    <img class="youtube-logo" src="img//header/youtube-logo.png" alt="YouTube logo">
+    <header>
+        <div class="main-menu">
+            <div class="menu">
+                <a href="#">
+                    <img class="image-in-menu" src="img/image-in-menu.svg" alt="Main image">
+                </a>
+            </div>
+            <div>
+                <nav class="navbar navbar-light bg-light fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="burger-menu">
+                <label class="burger-icon" for="burger-checkbox">☰</label>
+                <input type="checkbox" id="burger-checkbox"/>
+                <div class="burger-menu-list">
+                    <ul class="burger-menu-ul">
+                        <li class="burger-menu-li">
+                            <a class="burger-menu-a" href="#about-us">About Us</a>
+                        </li>
+                        <li class="burger-menu-li">
+                            <a class="burger-menu-a" href="#bestsellers">Bestsellers</a>
+                        </li>
+                        <li class="burger-menu-li">
+                            <a class="burger-menu-a" href="#collections">Collections</a>
+                        </li>
+                        <li class="burger-menu-li">
+                            <a class="burger-menu-a" href="#lookbook">Lookbook</a>
+                        </li>
+                        <li class="burger-menu-li">
+                            <a class="burger-menu-a" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="burger-menu-li">
+                            <a class="burger-menu-a" href="#ambassadors">Ambassadors</a>
+                        </li>
+                        <li class="burger-menu-li">
+                            <a class="burger-menu-a" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="telephone">
+                        <p>+380 97 123 1234</p>
+                    </div>
+                    <div class="social-icons">
+                        <img class="facebook-logo" src="img/header/facebook-logo.png" alt="Facebook logo">
+                        <img class="istagram-logo" src="img/header/instagram-logo.svg" alt="Instagram logo">
+                        <img class="youtube-logo" src="img//header/youtube-logo.png" alt="YouTube logo">
+                    </div>
                 </div>
             </div>
         </div>
