@@ -1,42 +1,61 @@
 /* subscribe */
-.subscribe{
+/*.subscribe{
     position: relative;
     background-color:rgb(212, 191, 173);
-}
-h1{
+}*/
+.subscribe h1{
     color:white;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     position: relative;
 }
-h2{
+.lookbook h2{
     color: black;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     position: relative;
 }  
-/* p{
+.subscribe p{
     font-family:"Fira Sans", sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     color: white;
     }
-input{
+.subscribe input{
     font-family:"Fira Sans", sans-serif;
     font-size:16px;
     font-stretch:100%;
+    font-weight: bolder;
+    text-align: auto;
+    color:blanchedalmond;
+    background-color: rgb(212, 191, 173);
+    width: 308px;
+    height: 48px;
 }
-button{
+.subscribe button{
     text-align: center;
-    font-weight: 700;
+    font-weight: bold;
     color: white;
     background-color: black;
     width: 308px;
     height: 48px;
+    border: 2px;
+    margin: 12px 0px;
 }
-input{
+/*input{
     text-align: left;
     color:blanchedalmond;
     background-color: rgb(212, 191, 173);
     width: 308px;
     height: 48px;
 } */
+.figures{
+    font-weight: bolder;
+    font-style: italic;
+}
+.background{
+    background-image: url(../img/lookbook/black-top.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    padding: 90px;
+}
