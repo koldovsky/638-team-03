@@ -62,6 +62,7 @@ color: rgb(197, 175, 147);
     cursor: pointer;
     margin-top: 25px;
     line-height: 16px;
+    transition: background-color 0.5s;
 }
 
 .footer-button-text{
@@ -74,10 +75,12 @@ color: rgb(197, 175, 147);
     background-color: rgb(48, 48, 48);
 }
 
-hr {
+.hr-footer {
+    margin: auto;
+    margin-bottom: 30px; 
     border-width: 1px;
-    border-color: rgba(255, 255, 255, 0.199);
-    background-color: rgba(48, 48, 48, 0.199) ;
+    background-color: rgba(48, 48, 48, 0.795);
+    width: 93%;
     
 }
 
@@ -85,8 +88,9 @@ hr {
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
     color: rgb(107, 107, 107);
-    margin-top: 20px;
     text-align: center;
+    margin: auto;
+    width: 95%;
     
 
 
@@ -94,24 +98,29 @@ hr {
 @media (min-width: 750px){
     footer{
         padding: 0;
-        max-width: 100%;
+        width: 80%;
+        margin: auto;
     }
+
     footer>div{
         display: flex;
-        width: 100%;
-
-
+        width: 95%;
+        margin: auto;
     }
+
     .footer-upper-left-container, .footer-lower-right-container, .footer-link, .image-in-footer-container{
         margin: auto;
-
+        width: 25%;
     }
 
     .subscribe-form-container{
-      /* padding: 30px 25px 30px 25px; */
       padding: 0;
       margin: auto;
 
+    }
+
+    .hr-footer{
+        width: 95%;
     }
 
     .copyright-lines{
