@@ -31,6 +31,8 @@
     background-color: rgb(212, 191, 173);
     width: 308px;
     height: 48px;
+    border: 0;
+    box-shadow: none;
 }
 .subscribe button{
     font-family:"Fira Sans", sans-serif;
@@ -61,5 +63,5 @@
     background-position: center;
     padding: 90px;
     background-attachment: fixed;
-
+    margin-top: 50px;
 }

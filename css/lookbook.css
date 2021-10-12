@@ -3,9 +3,7 @@
     width: 357px;
     height: 326px;
     object-fit: cover;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-    margin-top: 15px;
+    padding: 7px;
 }
 .lookbook h2{
     color:black;
@@ -13,10 +11,20 @@
     font-weight: 700;
     font-size: 50px;
     text-align: center;
+    margin-top: 50px;
 }
 .lookbook p{
     color: black;
     font-family: "Fira Sans", sans-serif;
     font-size: 20px;
     text-align: center
+}
+.button-carusel {
+    width: 357px;
+    height: 326px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 0;
+    background: none;
+    box-shadow: none;
 }
