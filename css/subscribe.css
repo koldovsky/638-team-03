@@ -6,7 +6,7 @@
 .subscribe h1{
     color:white;
     font-family: "Cormorant Garamond", serif;
-    font-size: 40px;
+    font-size: 50px;
     position: relative;
 }
 .lookbook h2{
@@ -53,7 +53,7 @@
     font-style: italic;
 }
 .background .subscribe{
-    background-image: url(../img/lookbook/black-top.png);
+    background-image: url(../img/subscribe/background-girl.webp);
     background-size: 100%;
     background-position: center;
     padding: 90px;
