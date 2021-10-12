@@ -3,4 +3,20 @@
     width: 357px;
     height: 326px;
     object-fit: cover;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    margin-top: 15px;
+}
+.lookbook h2{
+    color:black;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+.lookbook p{
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+    text-align: center
 }
