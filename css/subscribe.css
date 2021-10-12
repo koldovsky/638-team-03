@@ -52,10 +52,11 @@
     font-weight: bolder;
     font-style: italic;
 }
-.background{
+.background .subscribe{
     background-image: url(../img/lookbook/black-top.png);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
-    display: grid;
     padding: 90px;
+    background-attachment: fixed;
+
 }
