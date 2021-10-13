@@ -4,6 +4,7 @@
 
 div.main-menu {
     font-family: 'Fira Sans', sans-serif;
+    max-width: 980px;
 }
 
 img.facebook-logo, .istagram-logo, .youtube-logo {
