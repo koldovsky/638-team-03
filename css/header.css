@@ -83,3 +83,7 @@ p.lingerie {
     font-family: "Cormorant Garamond", serif;
     font-size: 64px;
 }
+
+a.discover-button {
+    color:#303030;
+}
