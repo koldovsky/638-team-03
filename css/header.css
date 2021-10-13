@@ -4,12 +4,11 @@
 
 div.main-menu {
     font-family: 'Fira Sans', sans-serif;
-    max-width: 980px;
 }
 
 img.facebook-logo, .istagram-logo, .youtube-logo {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 img.image-in-menu {
@@ -23,15 +22,11 @@ div.menu {
     margin-top: 25px;
 }
 
-div.burger-menu {
+ul.burger-menu {
     color: #303030;
     font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
-    text-align: center;
-}
-
-#burger-checkbox {
-    display: none;
+    list-style-type: none;
 }
 
 ul.burger-menu-ul {
@@ -42,14 +37,13 @@ ul.burger-menu-ul {
 li.burger-menu-li {
     padding-top: 10px;
     padding-bottom: 10px;
-
+    text-align: center;
+    text-decoration: none;
 }
 
 a.burger-menu-a {
-    color: #303030;
-    font-family: monospace;
     text-decoration: none;
-    font-family: 'fira sans';
+    color: #303030;
 }
 
 div.telephone {
@@ -60,6 +54,16 @@ div.telephone {
 div.text-in-background {
     height: 568px;
     background-image: url(../img/header/backgroud-girl-header.webp);
+    min-width: 32px;
+    max-width: 1920px;
+}
+
+div.telephone {
+    text-align: center;
+}
+
+div.social-icons {
+    text-align: center;
 }
 
 p.handmade {
