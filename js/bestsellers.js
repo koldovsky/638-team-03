@@ -1,15 +1,15 @@
 (function () {
     const slides = [
-        `
-        <div class="bestsellers__photo__gallery"><img  src="img/bestsellers/basic__underwear.webp"
-        alt="basic black underwear woman"></div>
-        <div class="bestsellers__photo__gallery"><img  src="img/bestsellers/limited__underwear.webp"
-        alt="limited_nude_underwear_woman"></div>
-        <div class="bestsellers__photo__gallery"><img  src="img/bestsellers/sets__underwear.webp"
-        alt="sets_nude_underwear_woman"></div>
-        <div class="bestsellers__photo__gallery"><img  src="img/bestsellers/swimwear__underwear.webp"
-        alt="swimwear_underwear_white_woman"></div>
-        `
+        
+        `<div class="bestsellers__photo__gallery"><img  src="img/bestsellers/basic__underwear.webp"
+        alt="basic black underwear woman"></div>`,
+        `<div class="bestsellers__photo__gallery"><img  src="img/bestsellers/limited__underwear.webp"
+        alt="limited_nude_underwear_woman"></div>`,
+        `<div class="bestsellers__photo__gallery"><img  src="img/bestsellers/sets__underwear.webp"
+        alt="sets_nude_underwear_woman"></div>`,
+        `<div class="bestsellers__photo__gallery"><img  src="img/bestsellers/swimwear__underwear.webp"
+        alt="swimwear_underwear_white_woman"></div>`,
+        
     ];
     let currentSlide = 0;
 
@@ -40,4 +40,6 @@
     document.querySelector('.bestsellers__slide__carousel .prev').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentSlide);
     showCurrentSlide();
+
+
 })()
