@@ -20,13 +20,13 @@
     color: #555555;
     text-align: center;
 }
-.bestsellers__photo__gallery{
+/* .bestsellers__photo__gallery{
     width: 240px;
     height: 310px;
     padding: 25px 25px 60px 25px ;
     margin-left: 5px;
 
-}
+} */
 .bestsellers__content__title{
     font-family: "Cormorant Garamond", serif;
     font-size: 90px;
@@ -62,9 +62,43 @@
    margin: auto;
 }
 
-@media (min-width: 750px){
 
-    main .bestsellers__slide__gallery{
+/*  Carousel*/
+.bestsellers__slide__carousel{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.bestsellers__slide__carousel .slides{
+    display: flex;
+}
+.bestsellers__slide__carousel .slides img{
+    display: block;
+    width: 344px;
+    height: 441px;
+    
+}
+.slides{
+    width: 980px;
+    height: 310px;
+    padding: 25px 25px 60px 25px ;
+    margin-left: 5px;
+}
+.prev{
+    width: 25px;
+    height: 25px;
+
+}
+.next{
+    width: 25px;
+    height: 25px;
+
+}
+
+
+/* @media (min-width: 750px){
+
+    main .bestsellers__slide__carousel{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 10px;
@@ -74,7 +108,7 @@
 
 @media (min-width: 1000px){
 
-    main .bestsellers__slide__gallery{
+    main .bestsellers__slide__carousel{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
         grid-column-gap: 10px;
@@ -86,4 +120,4 @@
     }
 
     
-}
+} */
