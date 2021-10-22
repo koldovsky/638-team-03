@@ -125,13 +125,81 @@ article .phone-link {
     min-width: 100%;
 }
 
+.contacts-buttons {
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 0 15px;
+}
 
-@media (min-width: 750px) {
-    #contact-us {
-        display: grid;
+.button-request {
+    width: 210px;
+    height: 52px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: 0;
+    margin: 10px;
+    justify-self: center;
+}
+
+.button-request-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-request:hover {
+    background-color: #C5AF93;
+    transition: background-color 0.2s;
+}
+
+.button-request:active {
+    background-color: rgb(48, 48, 48);
+}
+
+.button-learn {
+    border: 2px solid rgb(197, 175, 147);
+    width: 168px;
+    height: 52px;
+    background-color: white;
+    justify-self: center;
+    margin: 10px;
+}
+
+.button-learn-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-learn:hover {
+    background-color: rgb(197, 175, 147);
+    transition: background-color 0.2s;
+    color: white;
+}
+
+.button-learn:active {
+    background-color: rgb(48, 48, 48);
+    border: 2px solid rgb(197, 175, 147);
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 450px) {
+    .contacts-buttons {
         grid-template-columns: 1fr 1fr;
     }
 
+    .button-request {
+        justify-self: right;
+    } 
+    
+    .button-learn {
+        justify-self: left;
+    } 
+}
+
+@media (min-width: 750px) {
     .contact-us-header {
         font-size: 50px;
     }
