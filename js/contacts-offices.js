@@ -1,7 +1,7 @@
 (function() {
     const offices = [
         {
-            id: 1,
+            id: '1',
             title:  'Head office in London',
             image: 'img/contacts/offices.jpg',
             address: 'Level 17, Dashwood House',
@@ -10,7 +10,7 @@
             officeMail: 'mywebsite@email.com'  
         },
         {
-            id: 2,
+            id: '2',
             title:  'Vienna office',
             image: 'img/contacts/offices.jpg',
             address: 'Kaerntner Ring 5-7',
@@ -19,7 +19,7 @@
             officeMail: 'mywebsite@email.com'  
         },
         {
-            id: 3,
+            id: '3',
             title:  'Amsterdam office',
             image: 'img/contacts/offices.jpg',
             address: 'Keizersgracht 62-64',
