@@ -100,7 +100,7 @@ article > h3 {
     margin-top: 20px;
 }
 
-.office p {
+.mainOffice p {
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     color: rgb(107, 107, 107);
@@ -140,7 +140,7 @@ article .phone-link {
         font-size: 50px;
     }
 
-    .contacts .office {
+    .contacts .mainOffice {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 20px;
@@ -157,7 +157,7 @@ article .phone-link {
         font-size: 60px;
     }
     
-    .contacts .office {
+    .contacts .mainOffice {
         grid-template-columns: 1fr 1fr 1fr;
     }   
 }

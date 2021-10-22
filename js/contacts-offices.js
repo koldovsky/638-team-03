@@ -30,7 +30,7 @@
     ];
 
     function renderOffices (offices) {
-        const officesContainer = document.querySelector('.office');
+        const officesContainer = document.querySelector('.mainOffice');
         for (const office of offices) {
             officesContainer.innerHTML += `
                 <article>
