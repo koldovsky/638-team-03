@@ -1,21 +1,9 @@
-h2 {
-    text-align: center;
+.ambassadors-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.img-nastya {
-    width: 5%;
+.ambassadors-photos .ambassador-photo-container img {
     display: block;
-    margin: auto;
-}
-
-.img-nastya01 {
-    width: 5%;
-    display: block;
-    margin: auto;
-}
-
-.img-mashka {
-    width: 5%;
-    display: block;
-    margin: auto;
+    width: 100%;
 }
