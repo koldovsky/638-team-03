@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/footer-styles.css">
     <link rel="stylesheet" href="css/lookbook.css">
     <link rel="stylesheet" href="css/ambassadors.css">
+    <link rel="stylesheet" href="css/footer-tests.css">
 </head>
 
 <body>
@@ -479,7 +480,9 @@
             </button>
         </div>
     </main>
-
+                <!-- test -->
+                <div class="clock"></div>
+                <!-- test -->
     <footer>
         <div class="footer-container">
             <div class="image-in-footer-container">
@@ -532,13 +535,33 @@
                 <form action="#" method="post" class="subscribe-in-footer-form">
                     <input type="email" name="subscriber-mail" id="subscriber-mail" placeholder="Email"
                         class="footer-email-field">
-                    <button type="submit" class="footer-subscribe-button">
+                    <button type="button" class="btn btn-primary footer-subscribe-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <span class="footer-button-text">Subscribe</span>
                     </button>
+                    <!-- <button type="submit" class="footer-subscribe-button">
+                        <span class="footer-button-text">Subscribe</span>
+                    </button> -->
                 </form>
             </div>
         </div>
-
+        <!-- modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" >
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <hr class="hr-footer">
 
         <div class="copyright-lines">
@@ -551,6 +574,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/test-footer.js"></script>
     <script src="js/about.js"></script>
     <script src="js/bestsellers.js"></script>
     <script src="js/contacts-offices.js"></script>
