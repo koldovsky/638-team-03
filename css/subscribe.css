@@ -59,7 +59,7 @@
 }
 .background .subscribe{
     background-image: url(../img/subscribe/background-girl.webp);
-    background-size: 100%;
+    background-size: auto;
     background-position: center;
     padding: 90px;
     background-attachment: fixed;
