@@ -4,6 +4,9 @@
     height: 326px;
     object-fit: cover;
     padding: 7px;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
 }
 .lookbook h2{
     color:black;
@@ -28,3 +31,10 @@
     background: none;
     box-shadow: none;
 }
+@media (min-width: 750px) {
+    .lookbook p, .lookbook h2, .subscribe h1, .subscribe p{
+        font-family: inherit;
+    }
+    .subscribe button, .subscribe input {
+        width: 308px;
+    }
