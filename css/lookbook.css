@@ -32,9 +32,9 @@
     box-shadow: none;
 }
 @media (min-width: 750px) {
-    .lookbook p, .lookbook h2, .subscribe h1, .subscribe p{
+    /*.lookbook p, .lookbook h2, p{
         font-family: inherit;
-    }
+    }*/
     .subscribe button, .subscribe input {
         width: 308px;
     }
