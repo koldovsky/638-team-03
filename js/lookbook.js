@@ -12,4 +12,4 @@
         const lookbookImagesContainer = document.querySelector('.lookbook-carousel .slide');
         lookbookImagesContainer.innerHTML = lookbookImages[lookbookImage];
     }
-} ()
+} )();
