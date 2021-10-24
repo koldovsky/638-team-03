@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Fira+Sans:wght@100;400&display=swap');
 
-.Our_Collection_text {
+.our_collection_text {
     font-size: 40px;
     font-family: "Cormorant Garamond", sans-serif;
     text-align: center;
@@ -25,11 +25,19 @@
 }
 
 img.flora, .tamara, .judie, .helena {
-    width: 373.5px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 272px;
+    line-height: 24px;
+    width: 272px;
 }
 
 img.erica, .lilly, .caroline, .eloise {
-    width: 373.5px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 272px;
+    line-height: 24px;
+    width: 272px;
 }
 
 .button {
