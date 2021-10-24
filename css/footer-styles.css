@@ -64,6 +64,12 @@ color: rgb(197, 175, 147);
     line-height: 16px;
     transition: background-color 0.5s;
 }
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: rgb(197, 175, 147);
+    border-color: rgb(197, 175, 147);
+    box-shadow: none;
+}
 
 .footer-button-text{
     color: rgb(255, 255, 255);
