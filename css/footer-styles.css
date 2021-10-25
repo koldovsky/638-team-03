@@ -14,7 +14,8 @@ footer {
 }
 
 /* link groups styles */
-.footer-upper-left-container, .footer-lower-right-container, .footer-link{
+.footer-upper-left-container, .footer-lower-right-container, 
+.footer-link, .text-in-modal {
     color: rgb(85, 85, 85);
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
@@ -26,21 +27,21 @@ footer {
 }
 
 /* spase between links */
-.footer-link-line{
+.footer-link-line {
     margin-top: 20px;
     margin-bottom: 20px;   
 }
 
-.footer-link:hover{
+.footer-link:hover {
 color: rgb(197, 175, 147);
 }
 
-.subscribe-form-container{
+.subscribe-form-container {
     padding: 0 25px 30px 25px;
 }
 
 /* form defaults */
-.footer-email-field, .footer-subscribe-button{
+.footer-email-field, .footer-subscribe-button, .modal-title {
     all: initial;
     font-family: 'Fira Sans', sans-serif;
     padding: 16px 0 16px 0;
@@ -57,12 +58,13 @@ color: rgb(197, 175, 147);
     color: rgba(107, 107, 107, 0.5); 
    }
 
-.footer-subscribe-button{
+.footer-subscribe-button, .footer-btn-in-modal {
     background-color: rgb(197, 175, 147);
     cursor: pointer;
     margin-top: 25px;
     line-height: 16px;
     transition: background-color 0.5s;
+    border-width: 0;
 }
 .btn-check:focus+.btn-primary, .btn-primary:focus {
     color: #fff;
@@ -71,14 +73,32 @@ color: rgb(197, 175, 147);
     box-shadow: none;
 }
 
-.footer-button-text{
+.footer-button-text {
     color: rgb(255, 255, 255);
     text-decoration-style: solid;
     font-weight: 700;
 }
 
-.footer-subscribe-button:hover{
+.footer-subscribe-button:hover, .footer-btn-in-modal:hover {
     background-color: rgb(48, 48, 48);
+}
+
+.modal-header {
+    justify-content: end;
+    width: 100%;
+    margin: auto;
+}
+
+.modal-content {
+    margin: auto;
+    max-width: 344px;
+
+}
+
+.footer-btn-in-modal {
+    display: block;
+    margin: auto;
+
 }
 
 .hr-footer {
