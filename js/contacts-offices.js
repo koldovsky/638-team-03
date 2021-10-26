@@ -38,14 +38,14 @@
                     <img src="${office.image}" alt="${office.title}">
                     <p>${office.address}</p>
                     <p>${office.cityCoordinate}</p>
+                    <p class="timeNow"></p>
                     <a href="tel:${office.phoneNumber}" data-action="phone" class="phone-link">${office.phoneNumber}</a><br>
                     <a href="mailto:${office.officeMail}" data-action="email" class="email-link">${office.officeMail}</a>
                 </article>
             `;
         }
+        
     }
 
 renderOffices(offices);
-
-
 })();
