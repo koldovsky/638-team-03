@@ -189,6 +189,12 @@ article .phone-link {
     color: black;
 }
 
+.timeNow {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(107, 107, 107);  
+}
+
 @media (min-width: 450px) {
     .contacts-buttons {
         grid-template-columns: 1fr 1fr;
