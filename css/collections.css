@@ -3,63 +3,185 @@
 
 #collections {
     background-color: #f6f0e9;
-    }
-.our_collection_text {
-        font-size: 40px;
-        font-family: "Cormorant Garamond", sans-serif;
-        text-align: center;
-        color: rgb(48, 48, 48);
+    height: auto;
+}
+
+    
+        
+                        
+            
+.collection_foto {
+    width: 247px;
+    height: 247px;
+    object-fit: cover;
+    padding: 1px;
+    display: flex;
+    margin: auto;
+}
+
+.collection_foto_sets {
+    width: 247px;
+    height: 247px;
+    object-fit: cover;
+    padding: 1px;
+    display: flex;
+    margin: auto;
+}
+        
+    
+    
+.our_Collection_text {
+    font-size: 60px;
+    font-family: "Cormorant Garamond", sans-serif;
+    text-align: center;
+    color: rgb(48, 48, 48);
+    margin-top: 100px;
+    
 }
 .collection__content {    
     font-size: 20px;
     font-family: "Fira Sans", sans-serif;
     text-align: center;
     color: rgb(85, 85, 85);
+    margin-bottom: 50px;
 }
-.collections img {
-    font-size: 16px;
-    font-weight: 400px;
-    height: 272px;
-    line-height: 24px;
-    width: 272px;
-    }
-#limited {
+.limited_name {
     text-align: left;
     color: rgb(107, 107, 107);
+    margin: 24px;
+    font-size: 20px;
 }
-#lingerie-sets  {
+
+
+.lingerie-sets_name  {
     text-align: left;
     color: rgb(107, 107, 107);
+    margin: 24px;
+    font-size: 20px;
+    
 }
 
 .price_collection {
     color: rgb(197, 175, 147);
+    text-align: left;
+    margin: 24px;
+    font-size: 20px;
 }
-.button {
-    color: white; 
-    height: 52px;      
+
+
+.our_collection_content_block {
+    margin-top: 45px;  
+}
+
+
+#our_collection_tab {
+    text-decoration: none;
     font-family: "Fira Sans", sans-serif;
-    font-size: 16px;
-    width: 151.672px;
+    
 }
-.button:hover {
-    color: white;
-    background-color: #a6a6a6;
+.nav-link {
+    color:rgb(108, 110, 110);
+    background-color: #f6f0e9;
+    text-align: center;
+
 }
+  .nav-link:hover,
+  .nav-link:focus {
+   color: black;
+   
+  }
+  
+@media (min-width: 750px) {
+    .limited {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+    
+
+@media (min-width: 995px) {
+    .limited {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-right: -15px;
+        margin-top: -15px;
+        }
+    }
+    
+
+ @media (min-width: 750px) {
+    .lingerie-sets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 995px) {
+    .lingerie-sets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: -15px;
+    margin-top: 10px;
+    }
+}
+
+@media (min-width: 750px) {
+    .testimonials_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+}
+
+@media (min-width: 995px) {
+        .testimonials_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+}    
+
 #testimonials {
     background-color: #f6f0e9;
-    margin-bottom: 30px;
+    margin-top: auto;
 }
-.testimonials p {
+
+.testimionals_say {
+    font-family: "Fira Sans", sans-serif;
     text-align: center;
+    color: rgb(107, 107, 107);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}    
+.testimonials_clients {
+    font-family: "Cormorant Garamond", serif;
+    color: rgb(48, 48, 48);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+    
 }
-.testimonials img  {
-    object-fit: cover;
-    width: 70px;
-    border-radius: 50%;
-    height: 70px;
-    display: block;
-    margin: 0 auto;
+
+.testimonials_content {
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+    text-align: center;
+        
+}
+.tania-gordons-block {
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.alice-smith-block {
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+   
 }
 .testimonials-name {
     color: rgb(197, 175, 147);
@@ -68,24 +190,69 @@
     display: block;
     margin: auto;
     text-align: center;
-}
-.tania-gordons-block {
-    background-color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
+    }
+.testimonials p {
+    text-align: center;
 }
 .julia-sheffeld-block {
     background-color: white;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 50px;
+    padding-bottom: 30px;
 }
-.alice-smith-block {
-    background-color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+img.alice-smith, .julia-sheffeld, .tania-gordons  {
+    object-fit: cover;
+    width: 70px;
+    border-radius: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+} 
+
+.button_collection_limited{
+    width: 151px;
+    height: 52px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: 0;
+    margin: 10px;
+    justify-self: center;
+}
+
+.button_collection_limited:hover {
+    background-color: #C5AF93;
+    transition: background-color 0.2s;
+}
+
+.button_collection_limited:active {
+    background-color: rgb(48, 48, 48);
+}
+.button_buy_now_text{
+font-family: "Fira Sans", sans-serif;
+font-size: 16px;
+font-weight: 700;
+}
+
+.button_collection_lingerie-sets{
+width: 210px;
+height: 52px;
+background-color: rgb(48, 48, 48);
+color: white;
+border: 0;
+margin: 10px;
+justify-self: center;
+}
+
+.button_collection_lingerie-sets:hover {
+background-color: #C5AF93;
+transition: background-color 0.2s;
+}
+
+.button_collection_lingerie-sets:active {
+background-color: rgb(48, 48, 48);
 }
 
