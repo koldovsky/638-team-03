@@ -16,7 +16,7 @@
    }
    
    /* The Modal (background) */
-   .modal {
+ .modal {
      display: none;
      position: fixed;
      z-index: 1;
@@ -30,7 +30,7 @@
    }
    
    /* Modal Content */
-   .modal-content {
+   .modalContent {
      position: relative;
      background-color: #fefefe;
      margin: auto;
@@ -43,7 +43,7 @@
    /* The Close Button */
    .close {
      color: white;
-     position: absolute;
+     position:sticky;
      top: 10px;
      right: 25px;
      font-size: 35px;
@@ -55,7 +55,7 @@
      color: #999;
      text-decoration: none;
      cursor: pointer;
-   }
+   }*/
    
    /* Hide the slides by default */
    .mySlides {
@@ -87,8 +87,8 @@
    }
    
    /* On hover, add a black background color with a little bit see-through */
-   .prev:hover,
-   .next:hover {
+   .prevArrow:hover,
+   .nextArrow:hover {
      background-color: rgba(0, 0, 0, 0.8);
    }
    
