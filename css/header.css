@@ -82,8 +82,10 @@ p.handmade {
 p.lingerie {
     font-family: "Cormorant Garamond", serif;
     font-size: 64px;
+    padding-left: 20px;
 }
 
 a.discover {
     color:#303030;
+padding-left: 20px;
 }
