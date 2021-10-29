@@ -63,8 +63,8 @@
    }
    
    /* Next & previous buttons */
-   .prev,
-   .next {
+   .prevArrow,
+   .nextArrow {
      cursor: pointer;
      position: absolute;
      top: 50%;
@@ -81,7 +81,7 @@
    }
    
    /* Position the "next button" to the right */
-   .next {
+   .nextArrow {
      right: 0;
      border-radius: 3px 0 0 3px;
    }
@@ -94,12 +94,12 @@
    
     
    /* Caption text */
-   .caption-container {
+/*.caption-container {
      text-align: center;
      background-color: black;
      padding: 2px 16px;
      color: white;
-   }
+   }*/
    
    img.demo {
      opacity: 0.6;
