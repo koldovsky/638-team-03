@@ -3,12 +3,13 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.ambassadors-photos .ambassador-photo-container img {
-    display: block;
-    width: 270px;
-    height: 480px;
-    margin: 50px;
-    max-width: 100%;
+.ambassador-photo-container img {
+    max-height: 400px;
+    margin: auto
+} 
+
+.ambassador-photo-container {
+    margin: auto;
 }
 
 h2 {
