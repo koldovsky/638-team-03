@@ -37,8 +37,8 @@
         showCurrentSlide();
     }
 
-    document.querySelector(".footer-carousel-js .next-footer-slide").addEventListener("click", nextSlide)
-    document.querySelector(".footer-carousel-js .prev-footer-slide").addEventListener("click", prevSlide)
+    document.querySelector(".next-footer-slide").addEventListener("click", nextSlide)
+    document.querySelector(".prev-footer-slide").addEventListener("click", prevSlide)
 
     
     showCurrentSlide();
