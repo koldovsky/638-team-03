@@ -1,3 +1,10 @@
+:root{
+    --basic-color:  #c5af93;
+    --white-color:  #ffffff;
+    --black-color:  #000000;
+    --gray-color:   #555555;
+}
+
 .container{
     margin: auto;
     max-width: 980px;
@@ -5,34 +12,34 @@
     font-family: "Fira Sans", sans-serif;
 }
 .bestsellers__text{
-    color:black;
+    color: var(--black-color);
     font-family: "Cormorant Garamond", serif;
     text-align: center;
 }
 .bestsellers__title-span{
-    color: #f5e9dc;
+    color: var(--basic-color);
     font-size: 40px;
 }
 .bestsellers__title-text{
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    color: #555555;
+    color: var(--gray-color);
     text-align: center;
 }
-.bestsellers__photo__gallery{
+/* .bestsellers__photo__gallery{
     width: 240px;
     height: 310px;
     padding: 25px 25px 60px 25px ;
     margin-left: 5px;
 
-}
+} */
 .bestsellers__content__title{
     font-family: "Cormorant Garamond", serif;
     font-size: 90px;
     line-height: 99px;
     font-weight: 700;
-    color: #ffffff;
+    color: var(--white-color);
     position: absolute;
     top: 26%;
     left: 10%;
@@ -42,7 +49,7 @@
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    color: #ffffff;
+    color: var(--white-color);
     position: absolute;
     top: 60%;
     left: 10%;
@@ -62,9 +69,44 @@
    margin: auto;
 }
 
-@media (min-width: 750px){
 
-    main .bestsellers__slide__gallery{
+/*  Carousel*/
+.bestsellers__slide__carousel{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.bestsellers__slide__carousel .slides{
+    display: flex;
+}
+.bestsellers__slide__carousel .slides img{
+    display: block;
+    width: 100%;
+}
+.slides{
+    padding: 25px 25px 60px 25px ;
+    margin-left: 5px;
+}
+.prev{
+    width: 32px;
+    height: 32px;
+    background-color:  var(--basic-color);
+
+}
+.next{
+    width: 32px;
+    height: 32px;
+    background-color:  var(--basic-color);
+
+}
+.bestsellers__photo__gallery{
+    padding: 0 15px;
+}
+
+
+/* @media (min-width: 750px){
+
+    main .bestsellers__slide__carousel{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 10px;
@@ -74,7 +116,7 @@
 
 @media (min-width: 1000px){
 
-    main .bestsellers__slide__gallery{
+    main .bestsellers__slide__carousel{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
         grid-column-gap: 10px;
@@ -86,4 +128,4 @@
     }
 
     
-}
+} */
