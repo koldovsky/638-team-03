@@ -478,7 +478,7 @@
     <footer>
         <div class="footer-container">
             <div class="image-in-footer-container">
-                <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main image">
+                <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main-image">
             </div>
 
             <div class="footer-upper-left-container">
@@ -524,16 +524,42 @@
             </div>
 
             <div class="subscribe-form-container">
-                <form action="#" method="post" class="subscribe-in-footer-form">
+                <form action="https://formspree.io/f/myylarpa" method="post" class="subscribe-in-footer-form">
                     <input type="email" name="subscriber-mail" id="subscriber-mail" placeholder="Email"
                         class="footer-email-field">
-                    <button type="submit" class="footer-subscribe-button">
+                    <input type="submit" class="btn btn-primary footer-subscribe-button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop" value="Subscribe">
+                        
+                        <!-- <span class="footer-button-text">Subscribe</span> -->
+                        <!-- <span class="footer-button-text">Subscribe</span> -->
+                    <!-- </button> -->
+
+                    <!-- <button type="submit" class="footer-subscribe-button">
                         <span class="footer-button-text">Subscribe</span>
-                    </button>
+                    </button> -->
                 </form>
+                <p clas="footer-subscribe-form-status"></p>
             </div>
         </div>
-
+        <!-- modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" >
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-in-modal" id="staticBackdropLabel">Thank You!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>We will contact you shortly.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary footer-btn-in-modal" data-bs-dismiss="modal">Ok</button>
+                            <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <hr class="hr-footer">
 
         <div class="copyright-lines">
@@ -546,6 +572,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/subscribe-form.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
