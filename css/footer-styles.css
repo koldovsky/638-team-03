@@ -124,21 +124,9 @@ color: rgb(197, 175, 147);
     margin: auto;
     width: 95%;
     
+
+
 }
-
-
- .img-in-footer-carousel {
-    width: 50%;
-    margin: 0 0 0 25%;
-}
-
-
-.footer-carousel-js {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-}
-
 @media (min-width: 750px){
 
     .w-100{
@@ -178,3 +166,4 @@ color: rgb(197, 175, 147);
     }
 
 }
+
