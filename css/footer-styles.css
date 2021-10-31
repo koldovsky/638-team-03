@@ -65,6 +65,10 @@ color: rgb(197, 175, 147);
     line-height: 16px;
     transition: background-color 0.5s;
     border-width: 0;
+
+    color: rgb(255, 255, 255);
+    text-decoration-style: solid;
+    font-weight: 700;
 }
 .btn-check:focus+.btn-primary, .btn-primary:focus {
     color: #fff;
@@ -103,6 +107,8 @@ color: rgb(197, 175, 147);
 
 .hr-footer {
     margin: auto;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-bottom: 30px; 
     border-width: 1px;
     background-color: rgba(48, 48, 48, 0.795);
@@ -117,10 +123,8 @@ color: rgb(197, 175, 147);
     text-align: center;
     margin: auto;
     width: 95%;
-    
+}    
 
-
-}
 @media (min-width: 750px){
 
     .w-100{
@@ -160,4 +164,3 @@ color: rgb(197, 175, 147);
     }
 
 }
-

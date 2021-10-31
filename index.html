@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/footer-styles.css">
     <link rel="stylesheet" href="css/lookbook.css">
     <link rel="stylesheet" href="css/ambassadors.css">
-    <link rel="stylesheet" href="css/footer-tests.css">
+    <link rel="stylesheet" href="css/footer-carousel.css">
 </head>
 
 <body>
@@ -456,58 +456,63 @@
                 </form> 
             </div>
         </div>
-
-        <!-- Carousel -->
-
-        <div id="carousel-bottom" class="carousel slide" data-bs-ride="carousel">
+        
+        
+        <!-- Bootstrap Carousel -->
+        
+        <!-- <div id="carousel-bottom" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/imgs-above-footer/girl-in-white.webp" class="d-block w-100 mx-auto"
-                        alt="girl-in-white">
+                    <img src="img/imgs-above-footer/girl-in-white.webp" class="d-block w-100 mx-auto" alt="girl-in-white">
                 </div>
-
+                
                 <div class="carousel-item">
-                    <img src="img/imgs-above-footer/black-bras.webp" class="d-block w-100 mx-auto" alt="black-bras">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="img/imgs-above-footer/girl-on-balcony.webp" class="d-block w-100 mx-auto"
-                        alt="girl-on-balcony">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="img/imgs-above-footer/two-girls-in-black.webp" class="d-block w-100 mx-auto"
-                        alt="two-girls-in-black">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="img/imgs-above-footer/one-girl-in-black.webp" class="d-block w-100 mx-auto"
-                        alt="one-girl-in-black">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="img/imgs-above-footer/girl-in-shirt.webp" class="d-block w-100 mx-auto"
-                        alt="girl-in-white-shirt">
-                </div>
+                <img src="img/imgs-above-footer/black-bras.webp" class="d-block w-100 mx-auto" alt="black-bras">
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-bottom" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-bottom" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            
+            <div class="carousel-item">
+                <img src="img/imgs-above-footer/girl-on-balcony.webp" class="d-block w-100 mx-auto" alt="girl-on-balcony">
+            </div>
+            
+            <div class="carousel-item">
+                <img src="img/imgs-above-footer/two-girls-in-black.webp" class="d-block w-100 mx-auto" alt="two-girls-in-black">
+            </div>
+            
+            <div class="carousel-item">
+                <img src="img/imgs-above-footer/one-girl-in-black.webp" class="d-block w-100 mx-auto" alt="one-girl-in-black">
+            </div>
+            
+            <div class="carousel-item">
+                <img src="img/imgs-above-footer/girl-in-shirt.webp" class="d-block w-100 mx-auto" alt="girl-in-white-shirt">
+            </div>
         </div>
-    </main>
-    <!-- test -->
-    <div class="clock"></div>
-    <!-- test -->
-    <footer>
-        <div class="footer-container">
-            <div class="image-in-footer-container">
-                <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main-image">
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-bottom" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-bottom" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+    
+    <!-- Bootstrap Carousel -->
+    
+    <!-- jS Carousel -->
+    <div class="footer-carousel-js">
+        <button class="prev-footer-slide"><</button>
+        <div class="footer-carousel-slide"></div>
+        <button class="next-footer-slide">></button>
+    </div>
+    <!-- jS Carousel -->
+</main>
+
+<footer>
+
+    <div class="footer-container">
+        <div class="image-in-footer-container">
+            <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main-image">
             </div>
 
             <div class="footer-upper-left-container">
@@ -553,17 +558,21 @@
             </div>
 
             <div class="subscribe-form-container">
-                <form action="#" method="post" class="subscribe-in-footer-form">
+                <form action="https://formspree.io/f/myylarpa" method="post" class="subscribe-in-footer-form">
                     <input type="email" name="subscriber-mail" id="subscriber-mail" placeholder="Email"
                         class="footer-email-field">
-                    <button type="button" class="btn btn-primary footer-subscribe-button" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop">
-                        <span class="footer-button-text">Subscribe</span>
-                    </button>
+                    <input type="submit" class="btn btn-primary footer-subscribe-button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop" value="Subscribe">
+                        
+                        <!-- <span class="footer-button-text">Subscribe</span> -->
+                        <!-- <span class="footer-button-text">Subscribe</span> -->
+                    <!-- </button> -->
+
                     <!-- <button type="submit" class="footer-subscribe-button">
                         <span class="footer-button-text">Subscribe</span>
                     </button> -->
                 </form>
+                <p clas="footer-subscribe-form-status"></p>
             </div>
         </div>
         <!-- modal -->
@@ -597,6 +606,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/subscribe-form.js"></script>
     <script src="js/test-footer.js"></script>
     <script src="js/about.js"></script>
     <script src="js/bestsellers.js"></script>
@@ -606,6 +616,6 @@
         crossorigin="anonymous"></script>
     <script src="js/lookbook.js"></script>
     <script src="js/contacts-offices-time.js"></script>
+    <script src="js/header.js"></script>
 </body>
-
 </html>

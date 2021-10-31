@@ -1,0 +1,18 @@
+.footer-carousel-slide {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+ .img-in-footer-carousel {
+    /* width: 100%; */
+    max-width: 325px;
+    /* margin: 0 0 0 25%; */
+}
+
+
+.footer-carousel-js {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+}
