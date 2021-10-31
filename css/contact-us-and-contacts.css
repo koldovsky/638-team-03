@@ -1,0 +1,245 @@
+#contact-us, .contacts {
+    padding: 0 24px;
+    margin: 50px auto 0;
+    max-width: 980px;
+}
+
+#contact-us {
+    display: grid;
+}
+
+.contact-us-content {
+    margin-right: 20px;
+    max-width: 450px;
+}
+
+.socials-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-us-header {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(48, 48, 48);
+}
+
+.line-before-contact-us {
+    color: rgb(246, 240, 233);
+    font-style: normal;
+}
+
+.contact-us-paragraph {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+}
+
+.socials-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.socials-item {
+    list-style-type: none;
+    margin: 15px 15px 15px 0;
+}
+
+.contact-us-address {
+    margin-top: 25px;
+}
+
+.contact-us-address h3, .contact-us-hours h3, .contact-us-contacts h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+}
+
+.contact-us-address p, .contact-us-hours p, .contact-us-contacts p, .email-link, .email-link:hover, .phone-link, .phone-link:hover {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color:rgb(107, 107, 107);
+}    
+
+.email-link, .phone-link {
+    text-decoration: none;
+}
+
+article > img {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+article > h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(53, 48, 47);
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 15px;
+}
+
+.contacts-head {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-paragraph {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mainOffice p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+
+}
+
+article .email-link, article .phone-link {
+    display: flex;
+    justify-content: center;
+}
+
+article .phone-link {
+    margin-top: 15px;
+}    
+
+.contact-us-map iframe {
+    margin-top: 20px;
+    min-height: 502px;
+    min-width: 100%;
+}
+
+.contacts-buttons {
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 0 15px;
+}
+
+.button-request {
+    width: 210px;
+    height: 52px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: 0;
+    margin: 10px;
+    justify-self: center;
+}
+
+.button-request-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-request:hover {
+    background-color: #C5AF93;
+    transition: background-color 0.2s;
+}
+
+.button-request:active {
+    background-color: rgb(48, 48, 48);
+}
+
+.button-learn {
+    border: 2px solid rgb(197, 175, 147);
+    width: 168px;
+    height: 52px;
+    background-color: white;
+    justify-self: center;
+    margin: 10px;
+}
+
+.button-learn-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-learn:hover {
+    background-color: rgb(197, 175, 147);
+    transition: background-color 0.2s;
+    color: white;
+}
+
+.button-learn:active {
+    background-color: rgb(48, 48, 48);
+    border: 2px solid rgb(197, 175, 147);
+    background-color: white;
+    color: black;
+}
+
+.timeNow {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(107, 107, 107);  
+}
+
+@media (min-width: 450px) {
+    .contacts-buttons {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .button-request {
+        justify-self: right;
+    } 
+    
+    .button-learn {
+        justify-self: left;
+    } 
+}
+
+@media (min-width: 750px) {
+    .contact-us-header {
+        font-size: 50px;
+    }
+
+    .contacts-head {
+        font-size: 50px;
+    }
+
+    .contacts .mainOffice {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+
+    #contact-us {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 960px) {
+    .contact-us-header {
+        font-size: 60px;
+    }
+
+    .contacts-head {
+        font-size: 60px;
+    }
+    
+    .contacts .mainOffice {
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+}
