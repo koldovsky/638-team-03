@@ -60,7 +60,7 @@
 .post__shipping, .post__fabrics, .post__discount,.post__pay{
     width: 250px;
     height: 280px;
-    padding-right: 20px;
+   
 
 }
 .post__photo{
@@ -74,7 +74,6 @@
     padding-bottom: 10px;
     text-align: center;
 }
-
 /* Media */
 
 @media (min-width: 600px){
@@ -82,6 +81,7 @@
     main .posts{
         display: grid;
         grid-template-columns: 1fr 1fr ;
+        padding: 15px;
     }
 }
 @media (min-width: 720px){
@@ -89,6 +89,7 @@
     main .posts{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 15px;
     }
 }
 @media (min-width: 750px){
@@ -97,6 +98,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 10px;
+        
     }
     
     main .about__logo{
