@@ -1,12 +1,13 @@
 /* lookbook */
 .lookbook img{
-    width: 357px;
-    height: 326px;
+    /*width: 357px;
+    height: 326px;*/
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     display: flex;
     margin: auto;
     cursor: pointer;
-    
     }
 
 .lookbookImages {
@@ -46,6 +47,7 @@
     }
     .lookbookImages {
         grid-template-columns: 1fr 1fr 1fr;
+        
         
     }
 }

@@ -9,10 +9,10 @@
    }
    
    /* Create four equal columns that floats next to eachother */
- .lookbookGirl {
+/*.lookbookGirl {
      float: left;
      width: 33%;
-   }
+   }*/
    
    /* The Modal (background) */
  .lightbox {
