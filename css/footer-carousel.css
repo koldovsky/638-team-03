@@ -1,0 +1,35 @@
+.footer-carousel-js {
+    position: relative;
+}
+
+.footer-carousel-slide {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+ .img-in-footer-carousel {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.prev-footer-slide {
+left: 0px;
+}
+.next-footer-slide {
+right: 0px;
+}
+
+.footer-carousel-button img {
+    width: 30px;
+}

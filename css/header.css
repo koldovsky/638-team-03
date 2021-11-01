@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+header {
+   
+    @media (min-width: 1200px) {
+        
+    };
+
+    @media (min-width: 1200px) {
+        
+    };
+}
 
 div.main-menu {
     font-family: 'Fira Sans', sans-serif;
@@ -46,16 +58,22 @@ a.burger-menu-a {
     color: #303030;
 }
 
-div.telephone {
+li.burger-menu-li p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
     color: #c5af93;
     font-weight: bold;
 }
 
 div.text-in-background {
-    height: 568px;
+    height: 855px;
     background-image: url(../img/header/backgroud-girl-header.webp);
-    min-width: 32px;
+    min-width: 320px;
     max-width: 1920px;
+    margin: 0px auto;
+    padding: 72.69px 15px;
 }
 
 div.telephone {
@@ -68,22 +86,77 @@ div.social-icons {
 
 p.handmade {
     color: #c5af93;
-    font-family: 'Fira Sans', sans-serif;
-    font-style: italic;
     text-transform: uppercase;
-}
-
-p.handmade {
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    margin: 0px auto;
+}
+
+.button-and-linguere-with-back {
+    background-image: url(../img/header/sets.svg);
+    background-repeat: no-repeat;
+    background-position: 5% center;
+    height: max-content;
+    margin-top: 205px;
 }
 
 p.lingerie {
     font-family: "Cormorant Garamond", serif;
-    font-size: 64px;
+    font-size: 10vw;
+    color: rgb(85, 85, 85);
 }
 
 a.discover {
     color:#303030;
+}
+
+.button-discover {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #c5af93 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+  
+.button-discover:hover {
+    background-color: #c5af93;
+}
+  
+.button-discover:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+  
+@media (min-width: 768px) {
+    .button-discover {
+      padding: .75rem 1.5rem;
+    }
+}
+
+.arrow-right {
+    width: 30px;
+    height: 10px;
 }

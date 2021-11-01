@@ -161,6 +161,9 @@ article .phone-link {
     background-color: rgb(48, 48, 48);
 }
 
+.form-button-office-info {
+    text-align: center;
+}
 .button-learn {
     border: 2px solid rgb(197, 175, 147);
     width: 168px;
@@ -170,19 +173,34 @@ article .phone-link {
     margin: 10px;
 }
 
+ .office-info-form {
+    display: flex;
+    justify-content: center;
+}
+
+.office-info-btn {
+    border: 2px solid rgb(197, 175, 147);;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    justify-self: right;
+    margin: 10px;
+}
+
+
 .button-learn-text {
     font-family: "Fira Sans", sans-serif;
     font-size: 16px;
     font-weight: 700;
 }
 
-.button-learn:hover {
+.button-learn:hover, .office-info-btn:hover {
     background-color: rgb(197, 175, 147);
     transition: background-color 0.2s;
     color: white;
 }
 
-.button-learn:active {
+.button-learn:active, .office-info-btn:active {
     background-color: rgb(48, 48, 48);
     border: 2px solid rgb(197, 175, 147);
     background-color: white;
@@ -206,7 +224,11 @@ article .phone-link {
     
     .button-learn {
         justify-self: left;
-    } 
+    }
+
+    .form-button-office-info {
+        text-align: left;
+    }
 }
 
 @media (min-width: 750px) {
