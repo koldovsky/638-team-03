@@ -13,9 +13,9 @@
                     <p>${office.cityCoordinate}</p>
                     <a href="tel:${office.phoneNumber}" data-action="phone" class="phone-link">${office.phoneNumber}</a><br>
                     <a href="mailto:${office.officeMail}" data-action="email" class="email-link">${office.officeMail}</a>
-                    <form action="pages/office-info.html" target="_blank">
-                        <button type="submit" class="btn btn-light office-info-btn" data-id="${office.id}">
-                            <span class="button-learn-text">More...</span>
+                    <form action="pages/office-info.html" target="_blank" class='office-info-form'>
+                        <button type="submit" class="office-info-btn" data-id="${office.id}">
+                            <span class="button-learn-text">Look more</span>
                         </button>
                     </form> 
                 </article>
