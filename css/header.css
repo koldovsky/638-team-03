@@ -70,17 +70,14 @@ div.social-icons {
 
 p.handmade {
     color: #c5af93;
-    font-family: 'Fira Sans', sans-serif;
-    font-style: italic;
     text-transform: uppercase;
-}
-
-p.handmade {
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
     font-size: 14px;
-    
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
 }
 
 p.lingerie {
@@ -101,7 +98,7 @@ a.discover {
     cursor: pointer;
     flex: 0 0 auto;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1.125rem;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.5rem;
     padding: .75rem 1.2rem;
