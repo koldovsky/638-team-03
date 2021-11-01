@@ -1,19 +1,27 @@
+h8 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    background-color:  hsla(0, 0%, 77%, 0.247);
+    width: 100%;
+}
+
 .ambassadors-photos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: hsla(0, 0%, 77%, 0.247);
 }
 
-.ambassadors-photos .ambassador-photo-container img {
-    display: block;
-    width: 270px;
-    height: 480px;
-    margin: 50px;
-    max-width: 100%;
+.ambassador-photo-container {
+    display: flex;
+    justify-content: center;
 }
 
-h2 {
-    text-align: center;
-    padding: 50px;
-    font-weight: bold;
-    font-size: 50px;
+.ambassador-photo-container img {
+    width: 75%;
+    padding-bottom: 50px;
+    margin-top: 50px;
 }
