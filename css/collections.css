@@ -5,10 +5,7 @@
     background-color: #f6f0e9;
     height: auto;
 }
-
-    
-        
-                        
+                     
             
 .collection_foto {
     width: 247px;
@@ -18,19 +15,8 @@
     display: flex;
     margin: auto;
 }
-
-.collection_foto_sets {
-    width: 247px;
-    height: 247px;
-    object-fit: cover;
-    padding: 1px;
-    display: flex;
-    margin: auto;
-}
-        
     
-    
-.our_Collection_text {
+.our_collection_text {
     font-size: 60px;
     font-family: "Cormorant Garamond", sans-serif;
     text-align: center;
@@ -45,25 +31,16 @@
     color: rgb(85, 85, 85);
     margin-bottom: 50px;
 }
-.limited_name {
-    text-align: left;
+.girls_name {
+    text-align: center;
     color: rgb(107, 107, 107);
     margin: 24px;
     font-size: 20px;
-}
-
-
-.lingerie-sets_name  {
-    text-align: left;
-    color: rgb(107, 107, 107);
-    margin: 24px;
-    font-size: 20px;
-    
 }
 
 .price_collection {
     color: rgb(197, 175, 147);
-    text-align: left;
+    text-align: center;
     margin: 24px;
     font-size: 20px;
 }
@@ -95,6 +72,7 @@
     .limited {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        
         }
     }
     
@@ -136,7 +114,41 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         }
-}    
+}  
+
+@media (min-width: 750px) {
+    .basic {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+    
+
+@media (min-width: 995px) {
+    .basic {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-right: -15px;
+        margin-top: -15px;
+        }
+    }
+
+    @media (min-width: 750px) {
+        .swimwear {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+    
+    @media (min-width: 995px) {
+        .swimwear {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-right: -15px;
+            margin-top: -15px;
+            }
+        }
 
 #testimonials {
     background-color: #f6f0e9;
@@ -213,22 +225,24 @@ img.alice-smith, .julia-sheffeld, .tania-gordons  {
     
 } 
 
-.button_collection_limited{
+.button_collection{
     width: 151px;
     height: 52px;
     background-color: rgb(48, 48, 48);
     color: white;
     border: 0;
-    margin: 10px;
-    justify-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
 }
 
-.button_collection_limited:hover {
+.button_collection:hover {
     background-color: #C5AF93;
     transition: background-color 0.2s;
 }
 
-.button_collection_limited:active {
+.button_collection:active {
     background-color: rgb(48, 48, 48);
 }
 .button_buy_now_text{
@@ -237,22 +251,5 @@ font-size: 16px;
 font-weight: 700;
 }
 
-.button_collection_lingerie-sets{
-width: 210px;
-height: 52px;
-background-color: rgb(48, 48, 48);
-color: white;
-border: 0;
-margin: 10px;
-justify-self: center;
-}
 
-.button_collection_lingerie-sets:hover {
-background-color: #C5AF93;
-transition: background-color 0.2s;
-}
-
-.button_collection_lingerie-sets:active {
-background-color: rgb(48, 48, 48);
-}
 
