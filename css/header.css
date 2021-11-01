@@ -100,16 +100,14 @@ p.handmade {
 .button-and-linguere-with-back {
     background-image: url(../img/header/sets.svg);
     background-repeat: no-repeat;
-    background-position: 50% 65%;
-    width: 850px;
+    background-position: 5% center;
     height: max-content;
-    margin-left: 35px;
     margin-top: 205px;
 }
 
 p.lingerie {
     font-family: "Cormorant Garamond", serif;
-    font-size: 145px;
+    font-size: 10vw;
     color: rgb(85, 85, 85);
 }
 
