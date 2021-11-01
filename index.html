@@ -184,9 +184,30 @@
                 <p class="bestsellers__title-text">The best occasional and day-to-day lingerie</p>
             </div>
             <div class="bestsellers__slide__carousel">
-                <button class="prev"><img src="img/bestsellers/icon/left-arrow.png" alt=""></button>
+                <a class="prev"><img src="img/bestsellers/icon/left-arrow.png" alt=""></a>
                 <div class="slides"></div>
-                <button class="next"><img src="img/bestsellers/icon/right-arrow.png" alt=""></button>
+                <a class="next"><img src="img/bestsellers/icon/right-arrow.png" alt=""></a>
+            </div>
+            <div class="bestsellers__countdown">
+                <p class="bestsellers__countdown__text">Last season sale</p>
+                <div id="clockdiv">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>
+                </div>
             </div>
             <div class="bestsellers__content">
                 <div class="bestsellers__content__container"><img id="bestsellers__content__photo"
@@ -295,9 +316,7 @@
                 <div class="subscribe">
                     <h1>Subscribe</h1>
                     <p>and get <span class="figures">-10% </span>discount on your first order from 100USD</p>
-                    <form
-                        action="https://formspree.io/f/mpzkeova"
-                        method="POST">
+                    <form action="https://formspree.io/f/mpzkeova" method="POST">
                         <div>
                             <input type="email" placeholder="Email" name="_replyto">
                         </div>
@@ -317,61 +336,67 @@
                 <!-- Images used to open the lightbox -->
                 <div class="lookbookImages">
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/beige-detail.png" onclick="openLightbox();currentSlide(1)" class="hover-shadow">
+                        <img src="img/lookbook/beige-detail.png" onclick="openLightbox();currentSlide(1)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/beige-top.png" onclick="openLightbox();currentSlide(2)" class="hover-shadow">
+                        <img src="img/lookbook/beige-top.png" onclick="openLightbox();currentSlide(2)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/black-top.png" onclick="openLightbox();currentSlide(3)" class="hover-shadow">
+                        <img src="img/lookbook/black-top.png" onclick="openLightbox();currentSlide(3)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/girl-in-black-bra.png" onclick="openLightbox();currentSlide(4)" class="hover-shadow">
+                        <img src="img/lookbook/girl-in-black-bra.png" onclick="openLightbox();currentSlide(4)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/girl-in-curtains.png" onclick="openLightbox();currentSlide(5)" class="hover-shadow">
+                        <img src="img/lookbook/girl-in-curtains.png" onclick="openLightbox();currentSlide(5)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/girl-sitting-on-bed.png" onclick="openLightbox();currentSlide(6)" class="hover-shadow">
+                        <img src="img/lookbook/girl-sitting-on-bed.png" onclick="openLightbox();currentSlide(6)"
+                            class="hover-shadow">
                     </div>
-                  </div>
-                  
-                  <!-- The Modal/Lightbox -->
-                  <div id="myLightbox" class="lightbox">
+                </div>
+
+                <!-- The Modal/Lightbox -->
+                <div id="myLightbox" class="lightbox">
                     <span class="closeButton" onclick="closeLightbox()">&times;</span>
                     <div class="lightboxContent">
-                      <div class="myGirls">
-                        <img src="img/lookbook/beige-detail.png" style="width:100%">
-                      </div>
-                  
-                      <div class="myGirls">
-                        <img src="img/lookbook/beige-top.png" style="width:100%">
-                      </div>
-                  
-                      <div class="myGirls">
-                        <img src="img/lookbook/black-top.png" style="width:100%">
-                      </div>
-                  
-                      <div class="myGirls">
-                        <img src="img/lookbook/girl-in-black-bra.png" style="width:100%">
-                      </div>
-                
-                      <div class="myGirls">
-                        <img src="img/lookbook/girl-in-curtains.png" style="width:100%">
-                      </div>
-                
-                      <div class="myGirls">
-                        <img src="img/lookbook/girl-sitting-on-bed.png" style="width:100%">
-                      </div>
-                  
-                      <!-- Next/previous controls -->
-                      <a class="prevButton" onclick="plusSlides(-1)">&#10094;</a>
-                      <a class="nextButton" onclick="plusSlides(1)">&#10095;</a>
+                        <div class="myGirls">
+                            <img src="img/lookbook/beige-detail.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/beige-top.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/black-top.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/girl-in-black-bra.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/girl-in-curtains.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/girl-sitting-on-bed.png" style="width:100%">
+                        </div>
+
+                        <!-- Next/previous controls -->
+                        <a class="prevButton" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="nextButton" onclick="plusSlides(1)">&#10095;</a>
                     </div>
-                  </div>
+                </div>
             </div>
-        </div>            
-        
+        </div>
+
         <div id="testimonials">
             <div class="testimonials">
                 <div class="testimonials_clients">
@@ -383,7 +408,8 @@
                 <div class="tania-gordons-block">
                     <img class="tania-gordons" src="img/img.testimonials/tania-gordons.jpg" alt="tania gordons">
                     <div class="testimonials-name">Tania Gordons</div>
-                    <div class="testimionals_say">“I love this lingerie! I love lace sets that make you feel sexy and comfortable at the same time.
+                    <div class="testimionals_say">“I love this lingerie! I love lace sets that make you feel sexy and
+                        comfortable at the same time.
                         And
                         MARIELLA offers such underwear at affordable prices. I have 10 sets and will definitely buy
                         more!”
@@ -393,7 +419,8 @@
                 <div class="julia-sheffeld-block">
                     <img class="julia-sheffeld" src="img/img.testimonials/julie-sheffeld.jpg" alt="julia sheffeld">
                     <div class="testimonials-name">Julia Sheffeld</div>
-                    <div class="testimionals_say">“I really like the style of this lingerie. It is comfortable, convenient, suitable for any
+                    <div class="testimionals_say">“I really like the style of this lingerie. It is comfortable,
+                        convenient, suitable for any
                         clothes. I
                         really don't feel it on my body, it's like the second skin. And it looks great even after a
                         couple
@@ -404,7 +431,8 @@
                 <div class="alice-smith-block">
                     <img class="alice-smith" src="img/img.testimonials/alice-smith.jpg" alt="alice smith">
                     <div class="testimonials-name">Alice Smith</div>
-                    <div class="testimionals_say">“I have two swimsuits and two sets made by MARIELLA. And they are my favorite pieces of
+                    <div class="testimionals_say">“I have two swimsuits and two sets made by MARIELLA. And they are my
+                        favorite pieces of
                         underwear.
                         Others also like them and often ask me to send them the link to the MARIELLA site.”</div>
                     <p>July 12, 2020</p>
@@ -483,11 +511,11 @@
         <!--Contacts section-->
         <div class="contacts">
             <h2 class="contacts-head">Contacts</h2>
-            
+
             <p class="contacts-paragraph">
                 Feel free to contact us for any business, media, or personal inquiries:
             </p>
-            <div class="mainOffice">          
+            <div class="mainOffice">
             </div>
             <div class="contacts-buttons">
                 <button type="submit" class="button-request">
@@ -497,13 +525,13 @@
                     <button type="submit" class="button-learn">
                         <span class="button-learn-text">Learn more</span>
                     </button>
-                </form> 
+                </form>
             </div>
         </div>
-        
-        
+
+
         <!-- Bootstrap Carousel -->
-        
+
         <!-- <div id="carousel-bottom" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -540,23 +568,24 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div> -->
-    
-    <!-- Bootstrap Carousel -->
-    
-    <!-- jS Carousel -->
-    <button class="prev-footer-slide"><</button>
-    <div class="footer-carousel-js">
-        <div class="footer-carousel-slide"></div>
-    </div>
-    <button class="next-footer-slide">></button>
-    <!-- jS Carousel -->
-</main>
 
-<footer>
+        <!-- Bootstrap Carousel -->
 
-    <div class="footer-container">
-        <div class="image-in-footer-container">
-            <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main-image">
+        <!-- jS Carousel -->
+        <button class="prev-footer-slide">
+            << /button>
+                <div class="footer-carousel-js">
+                    <div class="footer-carousel-slide"></div>
+                </div>
+                <button class="next-footer-slide">></button>
+                <!-- jS Carousel -->
+    </main>
+
+    <footer>
+
+        <div class="footer-container">
+            <div class="image-in-footer-container">
+                <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main-image">
             </div>
 
             <div class="footer-upper-left-container">
@@ -607,9 +636,9 @@
                         class="footer-email-field">
                     <input type="submit" class="btn btn-primary footer-subscribe-button" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop" value="Subscribe">
-                        
-                        <!-- <span class="footer-button-text">Subscribe</span> -->
-                        <!-- <span class="footer-button-text">Subscribe</span> -->
+
+                    <!-- <span class="footer-button-text">Subscribe</span> -->
+                    <!-- <span class="footer-button-text">Subscribe</span> -->
                     <!-- </button> -->
 
                     <!-- <button type="submit" class="footer-subscribe-button">
@@ -620,23 +649,25 @@
             </div>
         </div>
         <!-- modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" >
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title text-in-modal" id="staticBackdropLabel">Thank You!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>We will contact you shortly.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary footer-btn-in-modal" data-bs-dismiss="modal">Ok</button>
-                            <!-- <button type="button" class="btn btn-primary">Understood</button> -->
-                        </div>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-in-modal" id="staticBackdropLabel">Thank You!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>We will contact you shortly.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary footer-btn-in-modal"
+                            data-bs-dismiss="modal">Ok</button>
+                        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <hr class="hr-footer">
 
@@ -663,4 +694,5 @@
     <script src="js/contacts-offices-time.js"></script>
     <script src="js/header.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "image":"src='img/bestsellers/basic__underwear.svg'"
+    },
+    {
+        "id":"2",
+        "image":"img/bestsellers/limited__underwear.webp"
+    },
+    {
+        "id":"3",
+        "image":"img/bestsellers/sets__underwear.webp"
+    },
+    {
+        "id":"4",
+        "image":"img/bestsellers/swimwear__underwear.webp"
+    }
+]
