@@ -114,7 +114,6 @@ color: rgb(197, 175, 147);
     margin-bottom: 30px; 
     border-width: 1px;
     background-color: rgba(48, 48, 48, 0.795);
-    width: 93%;
     
 }
 
@@ -157,6 +156,8 @@ color: rgb(197, 175, 147);
     }
 
     .hr-footer{
+        margin-left: auto;
+        margin-right: auto;
         width: 95%;
     }
 
