@@ -47,7 +47,11 @@ a.burger-menu-a {
     color: #303030;
 }
 
-div.telephone {
+li.burger-menu-li p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
     color: #c5af93;
     font-weight: bold;
 }
