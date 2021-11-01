@@ -8,14 +8,13 @@
                      
             
 .collection_foto {
-    /*width: 247px;*/
+    width: 247px;
     height: 247px;
     object-fit: cover;
     padding: 1px;
     display: flex;
     margin: auto;
-    position:relative;
-    width: 100%;
+    
     
 }
     
@@ -107,6 +106,13 @@
     color: white;
     background-color: #a6a6a6;
 }
+@media (min-width: 750px) {
+    .testimonials_block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+
 
 @media (min-width: 995px) {
         .testimonials_block {
@@ -115,13 +121,13 @@
         }
 }  
 
+
 @media (min-width: 750px) {
     .basic {
         display: grid;
         grid-template-columns: 1fr 1fr;
         }
-    }
-    
+    }  
 
 @media (min-width: 995px) {
     .basic {
@@ -137,8 +143,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             }
-        }
-        
+        }        
     
     @media (min-width: 995px) {
         .swimwear {
@@ -149,27 +154,52 @@
             }
         }
 
-#testimonials {
+/*#testimonials {
     background-color: #f6f0e9;
     margin-bottom: 30px;
+}резерв*/
+#testimonials {
+    background-color: #f6f0e9;
+    margin-top: auto;
 }
-.testimonials p {
+.testimionals_say {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    color: rgb(107, 107, 107);
+    font-size: 16px;
+    font-weight: 400;
+}
+.testimonials_clients {
+    font-family: "Cormorant Garamond", serif;
+    color: rgb(48, 48, 48);
+    font-size: 60px;
+    text-align: center; 
+    margin-top: 30px;   
+}
+.testimonials_content {
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
     text-align: center;
 }
-.testimonials img  {
+/*.img.alice-smith, .julia-sheffeld, .tania-gordons {
     object-fit: cover;
     width: 70px;
     border-radius: 50%;
     height: 70px;
     display: block;
     margin: 0 auto;
-}
+}*/
 .testimonials-name {
     color: rgb(197, 175, 147);
     font-family: "Fira Sans", sans-serif;
     font-size: 22px;
     display: block;
     margin: auto;
+    text-align: center;
+}
+
+.testimonials p {
     text-align: center;
 }
 .tania-gordons-block {
