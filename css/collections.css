@@ -89,3 +89,16 @@
     margin-bottom: 50px;
 }
 
+/* Oleh Mamalyha */
+
+.collection_foto {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+#limited, #lingerie-sets {
+    max-width: 500px;
+}
+/* Oleh Mamalyha ends optimization */
+
+

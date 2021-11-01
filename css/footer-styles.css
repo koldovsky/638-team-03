@@ -10,7 +10,6 @@
 /* footer position */
 footer {
     padding:80px 0 30px 0;
-    /* text-align:center; */
 }
 
 /* link groups styles */
@@ -97,6 +96,9 @@ color: rgb(197, 175, 147);
     margin: auto;
     max-width: 344px;
 
+}
+.footer-modal-body-text {
+    text-align: center;
 }
 
 .footer-btn-in-modal {
