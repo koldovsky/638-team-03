@@ -52,12 +52,12 @@ div.telephone {
 }
 
 div.text-in-background {
-    height: 568px;
+    height: 855px;
     background-image: url(../img/header/backgroud-girl-header.webp);
     min-width: 320px;
     max-width: 1920px;
     margin: 0px auto;
-    padding: 56.6875px 15px;
+    padding: 72.69px 15px;
 }
 
 div.telephone {
@@ -79,6 +79,8 @@ p.handmade {
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
+    font-size: 14px;
+    
 }
 
 p.lingerie {
