@@ -1,12 +1,13 @@
 /* lookbook */
 .lookbook img{
-    width: 357px;
-    height: 326px;
+    /*width: 357px;
+    height: 326px;*/
     object-fit: cover;
-    padding: 7px;
-    display: flex;
+    width: 100%;
+    display: grid;
     margin: auto;
     cursor: pointer;
+    grid-template-columns: 1fr 1fr;
 }
 .lookbook h2{
     color:black;
@@ -37,5 +38,9 @@
     }*/
     .subscribe button, .subscribe input {
         width: 308px;
+    }
+    .lookbook img {
+        grid-template-columns: 1fr 1fr 1fr;
+        
     }
 }
