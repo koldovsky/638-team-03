@@ -10,7 +10,6 @@
 /* footer position */
 footer {
     padding:80px 0 30px 0;
-    /* text-align:center; */
 }
 
 /* link groups styles */
@@ -98,6 +97,9 @@ color: rgb(197, 175, 147);
     max-width: 344px;
 
 }
+.footer-modal-body-text {
+    text-align: center;
+}
 
 .footer-btn-in-modal {
     display: block;
@@ -112,7 +114,6 @@ color: rgb(197, 175, 147);
     margin-bottom: 30px; 
     border-width: 1px;
     background-color: rgba(48, 48, 48, 0.795);
-    width: 93%;
     
 }
 
@@ -155,6 +156,8 @@ color: rgb(197, 175, 147);
     }
 
     .hr-footer{
+        margin-left: auto;
+        margin-right: auto;
         width: 95%;
     }
 

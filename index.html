@@ -28,9 +28,9 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="main-menu">
-            <nav class="navbar navbar-light bg-light fixed-top">
+            <nav class="navbar navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img class="image-in-menu" src="img/image-in-menu.svg" alt="Main image">
@@ -42,7 +42,7 @@
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation menu</h5>
                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -69,18 +69,17 @@
                                 <li class="burger-menu-li">
                                     <a class="burger-menu-a" href="#contact-us">Contact Us</a>
                                 </li>
-                            </ul>
-                            <div>
-                                <div class="telephone">
+                                <li class="burger-menu-li">
                                     <p>+380 97 123 1234</p>
-                                </div>
-                                <div class="social-icons">
-                                    <img class="facebook-logo" src="img/contact-us/fb-logo-contact-us.svg"
-                                        alt="Facebook logo">
-                                    <img class="istagram-logo" src="img/contact-us/insta-logo.svg" alt="Instagram logo">
-                                    <img class="youtube-logo" src="img/contact-us/youtube-logo.svg" alt="YouTube logo">
-                                </div>
-                            </div>
+                                </li>
+                                <li class="burger-menu-li">
+                                    <div class="social-icons">
+                                        <img class="facebook-logo" src="img/contact-us/fb-logo-contact-us.svg"alt="Facebook logo">
+                                        <img class="istagram-logo" src="img/contact-us/insta-logo.svg" alt="Instagram logo">
+                                        <img class="youtube-logo" src="img/contact-us/youtube-logo.svg" alt="YouTube logo">
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -88,14 +87,20 @@
         </div>
     </header>
     <div class="text-in-background">
-        <div class="handmade">
-            <p class="handmade">- handmade</p>
-        </div>
-        <div>
-            <p class="lingerie">Lingerie</p>
-        </div>
-        <div>
-            <a class="discover" href="#collections">Discover</a>
+        <div class="button-and-linguere-with-back">
+            <div class="handmade">
+                <p class="handmade">— HANDMADE</p>
+            </div>
+            <div>
+                <p class="lingerie">Lingerie</p>
+            </div>
+            <div>
+                <a href="#collections">
+                    <button class="button-discover" role="button" href="#about-us">Discover
+                        <img class="arrow-right" src="img/header/arrow-to-right.png" alt="arrow right"/>
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
     <main>
@@ -184,9 +189,30 @@
                 <p class="bestsellers__title-text">The best occasional and day-to-day lingerie</p>
             </div>
             <div class="bestsellers__slide__carousel">
-                <button class="prev"><img src="img/bestsellers/icon/left-arrow.png" alt=""></button>
+                <a class="prev"><img src="img/bestsellers/icon/left-arrow.png" alt=""></a>
                 <div class="slides"></div>
-                <button class="next"><img src="img/bestsellers/icon/right-arrow.png" alt=""></button>
+                <a class="next"><img src="img/bestsellers/icon/right-arrow.png" alt=""></a>
+            </div>
+            <div class="bestsellers__countdown">
+                <p class="bestsellers__countdown__text">Last season sale</p>
+                <div id="clockdiv">
+                    <div>
+                        <span class="days"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="hours"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="minutes"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="seconds"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>
+                </div>
             </div>
             <div class="bestsellers__content">
                 <div class="bestsellers__content__container"><img id="bestsellers__content__photo"
@@ -199,95 +225,262 @@
 
 
         <div id="collections">
-            <div class="our_collection_text">
-                <p>— Our Collection</p>
-            </div>
-            <div class="collection__content">
-                <p>Choose your favorite style and buy the lingerie you'll love to wear!</p>
-            </div>
-            <div id="limited">
-                <div>
-                    <img class="collection_foto" src="img/flora.png" alt="flora">
-                    <p>Flora</p>
-                    <div class=price_collection>
-                        <p>100.00USD</p>
-                    </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
+            <div class="collections">
+                <div class="our_collection_text">
+                    <p>— <strong>Our Collection</strong></p>
                 </div>
-                <div>
-                    <img class="collection_foto" src="img/judie.png" alt="judie">
-                    <p>Judie</p>
-                    <div class=price_collection>
-                        <p>120.00USD</p>
-                    </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
+                <div class="collection__content">
+                    <p>Choose your favorite style and buy the lingerie you'll love to wear!</p>
                 </div>
-                <div>
-                    <img class="collection_foto" src="img/tamara.png" alt="tamara">
-                    <p>Tamara</p>
-                    <div class=price_collection>
-                        <p>150.00USD</p>
+                <div class="collection_style">
+                    <ul class="nav nav-tabs" id="our_collection_tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                                type="button" role="tab" aria-controls="home" aria-selected="true">Limited</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" aria-controls="profile"
+                                aria-selected="false">Lingerie-Sets</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                                type="button" role="tab" aria-controls="contact" aria-selected="false">Basic</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="master-tab" data-bs-toggle="tab" data-bs-target="#master"
+                                type="button" role="tab" aria-controls="master" aria-selected="false">Swimwear</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="our_collection_content">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="our_collection_content_block">
+                                <div class="our_collection_content_limited">
+                                    <div class="limited">
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/flora.png" alt="flora">
+                                            <p class="girls_name">Flora</p>
+                                            <div class=price_collection>
+                                                <p><strong>100.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/judie.png" alt="judie">
+                                            <p class="girls_name">Judie</p>
+                                            <div class=price_collection>
+                                                <p><strong>120.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/tamara.png" alt="tamara">
+                                            <p class="girls_name">Tamara</p>
+                                            <div class=price_collection>
+                                                <p><strong>150.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/helena.jpg" alt="helena">
+                                            <p class="girls_name">Helena</p>
+                                            <div class=price_collection>
+                                                <p><strong>150.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--limited-->
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="our_collection_content_block">
+                                <div class="our_collection_content_lingerie-sets">
+                                    <div class="lingerie-sets">
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/erica.png" alt="erica">
+
+                                            <div class="erica">
+                                                <div class="girls_name">Erica</div>
+                                            </div>
+                                            <div class=price_collection>
+                                                <p><strong>170.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/lilly.png" alt="lilly">
+
+                                            <div class="lilly">
+                                                <div class="girls_name">Lilly</div>
+                                            </div>
+                                            <div class=price_collection>
+                                                <p><strong>120.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/caroline.png"
+                                                alt="caroline">
+                                            <div class="girls_name">Caroline</div>
+                                            <div class=price_collection>
+                                                <p><strong>200.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/eloise.png" alt="eloise">
+
+                                            <div class="girls_name">Eloise</div>
+                                            <div class=price_collection>
+                                                <p><strong>190.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--lingeria-->
+                        <div class="tab-pane fade" id="contact" role="tabpane3" aria-labelledby="contact-tab">
+                            <div class="our_collection_content_block">
+                                <div class="our_collection_content_basic">
+                                    <div class="basic">
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/catarina.jpg"
+                                                alt="catarina">
+                                            <p class="girls_name">Catarina</p>
+                                            <div class=price_collection>
+                                                <p><strong>100.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/jolie.jpg" alt="jolie">
+                                            <p class="girls_name">Jolie</p>
+                                            <div class=price_collection>
+                                                <p><strong>120.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/diana.jpg" alt="diana">
+                                            <p class="girls_name">Diana</p>
+                                            <div class=price_collection>
+                                                <p><strong>70.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/alisha.jpg" alt="alisha">
+                                            <p class="girls_name">Alisha</p>
+                                            <div class=price_collection>
+                                                <p><strong>70.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--basic<!-->
+                        <div class="tab-pane fade" id="master" role="tabpane4" aria-labelledby="master-tab">
+                            <div class="our_collection_content_block">
+                                <div class="our_collection_content_swimwear">
+                                    <div class="swimwear">
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/paloma.jpg" alt="paloma">
+                                            <p class="girls_name">Paloma</p>
+                                            <div class=price_collection>
+                                                <p><strong>90.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/susan.jpg" alt="susan">
+                                            <p class="girls_name">Susan</p>
+                                            <div class=price_collection>
+                                                <p><strong>70.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/samantha.jpg"
+                                                alt="samantha">
+                                            <p class="girls_name">Samantha</p>
+                                            <div class=price_collection>
+                                                <p><strong>100.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img class="collection_foto" src="img/collections/aloisa.jpg" alt="aloisa">
+                                            <p class="girls_name">Aloisa</p>
+                                            <div class=price_collection>
+                                                <p><strong>90.00USD</strong></p>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="button_collection">
+                                                    <span class="button_buy_now_text">Buy now</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
-                </div>
-                <div>
-                    <img class="collection_foto" src="img/helena.jpg" alt="helena">
-                    <p>Helena</p>
-                    <div class=price_collection>
-                        <p>150.00USD</p>
-                    </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
-                </div>
-            </div>
-            <div id="lingerie-sets">
-                <div>
-                    <img class="collection_foto" src="img/erica.png" alt="erica">
-                    <p>Erica</p>
-                    <div class=price_collection>
-                        <p>170.00USD</p>
-                    </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
-                </div>
-                <div>
-                    <img class="collection_foto" src="img/lilly.png" alt="lilly">
-                    <p>Lilly</p>
-                    <div class=price_collection>
-                        <p>120.00USD</p>
-                    </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
-                </div>
-                <div>
-                    <img class="collection_foto" src="img/caroline.png" alt="caroline">
-                    <p>Caroline</p>
-                    <div class=price_collection>
-                        <p>200.00USD</p>
-                    </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
-                </div>
-                <div>
-                    <img class="collection_foto" src="img/eloise.png" alt="eloise">
-                    <p>Eloise</p>
-                    <div class=price_collection>
-                        <p>190.00USD</p>
-                    </div>
-                    <form>
-                        <button class="button">Buy now</button>
-                    </form>
-                </div>
+                    <!--finish tab-->
+                </div>                
             </div>
         </div>
         <div class="background">
@@ -295,9 +488,7 @@
                 <div class="subscribe">
                     <h1>Subscribe</h1>
                     <p>and get <span class="figures">-10% </span>discount on your first order from 100USD</p>
-                    <form
-                        action="https://formspree.io/f/mpzkeova"
-                        method="POST">
+                    <form action="https://formspree.io/f/mpzkeova" method="POST">
                         <div>
                             <input type="email" placeholder="Email" name="_replyto">
                         </div>
@@ -317,61 +508,69 @@
                 <!-- Images used to open the lightbox -->
                 <div class="lookbookImages">
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/beige-detail.png" onclick="openLightbox();currentSlide(1)" class="hover-shadow">
+                        <img src="img/lookbook/beige-detail2.png" onclick="openLightbox();currentSlide(1)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/beige-top.png" onclick="openLightbox();currentSlide(2)" class="hover-shadow">
+                        <img src="img/lookbook/beige-top2.png" onclick="openLightbox();currentSlide(2)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/black-top.png" onclick="openLightbox();currentSlide(3)" class="hover-shadow">
+                        <img src="img/lookbook/black-top2.png" onclick="openLightbox();currentSlide(3)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/girl-in-black-bra.png" onclick="openLightbox();currentSlide(4)" class="hover-shadow">
+                        <img src="img/lookbook/girl-in-black-bra2.png" onclick="openLightbox();currentSlide(4)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/girl-in-curtains.png" onclick="openLightbox();currentSlide(5)" class="hover-shadow">
+                        <img src="img/lookbook/girl-in-black-bra-curtain2.png" onclick="openLightbox();currentSlide(5)"
+                            class="hover-shadow">
                     </div>
                     <div class="lookbookGirl">
-                      <img src="img/lookbook/girl-sitting-on-bed.png" onclick="openLightbox();currentSlide(6)" class="hover-shadow">
+                        <img src="img/lookbook/girl-sitting-on-bed2.png" onclick="openLightbox();currentSlide(6)"
+                            class="hover-shadow">
                     </div>
-                  </div>
-                  
-                  <!-- The Modal/Lightbox -->
-                  <div id="myLightbox" class="lightbox">
-                    <span class="closeButton" onclick="closeLightbox()">&times;</span>
+                </div>
+
+                <!-- The Modal/Lightbox -->
+                <div id="myLightbox" class="lightbox">
+                <div>
+                    <p class="closeButton" onclick="closeLightbox()">&times;</p>
+                </div>
                     <div class="lightboxContent">
-                      <div class="myGirls">
-                        <img src="img/lookbook/beige-detail.png" style="width:100%">
-                      </div>
-                  
-                      <div class="myGirls">
-                        <img src="img/lookbook/beige-top.png" style="width:100%">
-                      </div>
-                  
-                      <div class="myGirls">
-                        <img src="img/lookbook/black-top.png" style="width:100%">
-                      </div>
-                  
-                      <div class="myGirls">
-                        <img src="img/lookbook/girl-in-black-bra.png" style="width:100%">
-                      </div>
-                
-                      <div class="myGirls">
-                        <img src="img/lookbook/girl-in-curtains.png" style="width:100%">
-                      </div>
-                
-                      <div class="myGirls">
-                        <img src="img/lookbook/girl-sitting-on-bed.png" style="width:100%">
-                      </div>
-                  
-                      <!-- Next/previous controls -->
-                      <a class="prevButton" onclick="plusSlides(-1)">&#10094;</a>
-                      <a class="nextButton" onclick="plusSlides(1)">&#10095;</a>
+                        <div class="myGirls">
+                            <img src="img/lookbook/beige-detail.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/beige-top.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/black-top.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/girl-in-black-bra.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/girl-in-curtains.png" style="width:100%">
+                        </div>
+
+                        <div class="myGirls">
+                            <img src="img/lookbook/girl-sitting-on-bed.png" style="width:100%">
+                        </div>
+
+                        <!-- Next/previous controls -->
+                        <a class="prevButton" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="nextButton" onclick="plusSlides(1)">&#10095;</a>
                     </div>
-                  </div>
+                </div>
             </div>
-        </div>            
-        
+        </div>
+
         <div id="testimonials">
             <div class="testimonials">
                 <div class="testimonials_clients">
@@ -380,34 +579,47 @@
                 <div class="testimonials_content">
                     <p>We love to read these great reviews from our fabulous customers so much!</p>
                 </div>
-                <div class="tania-gordons-block">
-                    <img class="tania-gordons" src="img/img.testimonials/tania-gordons.jpg" alt="tania gordons">
-                    <div class="testimonials-name">Tania Gordons</div>
-                    <div class="testimionals_say">“I love this lingerie! I love lace sets that make you feel sexy and comfortable at the same time.
-                        And
-                        MARIELLA offers such underwear at affordable prices. I have 10 sets and will definitely buy
-                        more!”
+                <div class="testimonials_block">
+                    <div class="tania-gordons-block">
+                        <img class="tania-gordons" src="img/img.testimonials/tania-gordons.jpg" alt="tania gordons">
+                        <div class="testimonials-name">Tania Gordons</div>
+                        <div class="testimionals_say">“I love this lingerie! I love lace sets that make you feel
+                            sexy
+                            and
+                            comfortable at the same time. And
+                            MARIELLA offers such underwear at affordable prices. I have 10 sets and will
+                            definitely buy
+                            more!”
+                        </div>
+                        <p>October 28, 2019</p>
                     </div>
-                    <p>October 28, 2019</p>
-                </div>
-                <div class="julia-sheffeld-block">
-                    <img class="julia-sheffeld" src="img/img.testimonials/julie-sheffeld.jpg" alt="julia sheffeld">
-                    <div class="testimonials-name">Julia Sheffeld</div>
-                    <div class="testimionals_say">“I really like the style of this lingerie. It is comfortable, convenient, suitable for any
-                        clothes. I
-                        really don't feel it on my body, it's like the second skin. And it looks great even after a
-                        couple
-                        of years!"
+                    <div class="julia-sheffeld-block">
+                        <img class="julia-sheffeld" src="img/img.testimonials/julie-sheffeld.jpg" alt="julia sheffeld">
+                        <div class="testimonials-name">Julia Sheffeld</div>
+                        <div class="testimionals_say">“I really like the style of this lingerie. It is
+                            comfortable,
+                            convenient,
+                            suitable for any clothes. I
+                            really don't feel it on my body, it's like the second skin. And it looks great even
+                            after a
+                            couple
+                            of
+                            years!"
+                        </div>
+                        <p>March 08, 2020</p>
                     </div>
-                    <p>March 08, 2020</p>
-                </div>
-                <div class="alice-smith-block">
-                    <img class="alice-smith" src="img/img.testimonials/alice-smith.jpg" alt="alice smith">
-                    <div class="testimonials-name">Alice Smith</div>
-                    <div class="testimionals_say">“I have two swimsuits and two sets made by MARIELLA. And they are my favorite pieces of
-                        underwear.
-                        Others also like them and often ask me to send them the link to the MARIELLA site.”</div>
-                    <p>July 12, 2020</p>
+                    <div class="alice-smith-block">
+                        <img class="alice-smith" src="img/img.testimonials/alice-smith.jpg" alt="alice smith">
+                        <div class="testimonials-name">Alice Smith</div>
+                        <div class="testimionals_say">“I have two swimsuits and two sets made by MARIELLA. And
+                            they are
+                            my
+                            favorite pieces of underwear.
+                            Others also like them and often ask me to send them the link to the MARIELLA site.”
+                        </div>
+                        <p>July 12, 2020</p>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -483,11 +695,11 @@
         <!--Contacts section-->
         <div class="contacts">
             <h2 class="contacts-head">Contacts</h2>
-            
+
             <p class="contacts-paragraph">
                 Feel free to contact us for any business, media, or personal inquiries:
             </p>
-            <div class="mainOffice">          
+            <div class="mainOffice">
             </div>
             <div class="contacts-buttons">
                 <button type="submit" class="button-request">
@@ -497,13 +709,13 @@
                     <button type="submit" class="button-learn">
                         <span class="button-learn-text">Learn more</span>
                     </button>
-                </form> 
+                </form>
             </div>
         </div>
-        
-        
+
+
         <!-- Bootstrap Carousel -->
-        
+
         <!-- <div id="carousel-bottom" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -540,23 +752,30 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div> -->
-    
-    <!-- Bootstrap Carousel -->
-    
-    <!-- jS Carousel -->
-    <button class="prev-footer-slide"><</button>
-    <div class="footer-carousel-js">
-        <div class="footer-carousel-slide"></div>
-    </div>
-    <button class="next-footer-slide">></button>
-    <!-- jS Carousel -->
-</main>
 
-<footer>
+        <!-- Bootstrap Carousel -->
 
-    <div class="footer-container">
-        <div class="image-in-footer-container">
-            <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main-image">
+
+        <!-- jS Carousel -->
+
+        <div class="footer-carousel-js">
+            <button class="footer-carousel-button prev-footer-slide">
+                <img src="img/footer-carousel-btns/left-btn.svg" alt="next-button">
+            </button>
+            <div class="footer-carousel-slide"></div>
+            <button class="footer-carousel-button next-footer-slide">
+                <img src="img/footer-carousel-btns/right-btn.svg" alt="prev-button">
+            </button>
+        </div>
+
+        <!-- jS Carousel -->
+    </main>
+
+    <footer>
+
+        <div class="footer-container">
+            <div class="image-in-footer-container">
+                <img class="image-in-footer" src="img/image-in-menu.svg" alt="Main-image">
             </div>
 
             <div class="footer-upper-left-container">
@@ -607,9 +826,9 @@
                         class="footer-email-field">
                     <input type="submit" class="btn btn-primary footer-subscribe-button" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop" value="Subscribe">
-                        
-                        <!-- <span class="footer-button-text">Subscribe</span> -->
-                        <!-- <span class="footer-button-text">Subscribe</span> -->
+
+                    <!-- <span class="footer-button-text">Subscribe</span> -->
+                    <!-- <span class="footer-button-text">Subscribe</span> -->
                     <!-- </button> -->
 
                     <!-- <button type="submit" class="footer-subscribe-button">
@@ -620,23 +839,25 @@
             </div>
         </div>
         <!-- modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" >
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title text-in-modal" id="staticBackdropLabel">Thank You!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>We will contact you shortly.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary footer-btn-in-modal" data-bs-dismiss="modal">Ok</button>
-                            <!-- <button type="button" class="btn btn-primary">Understood</button> -->
-                        </div>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-in-modal" id="staticBackdropLabel">Thank You!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="footer-modal-body-text">We will contact you shortly.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary footer-btn-in-modal"
+                            data-bs-dismiss="modal">Ok</button>
+                        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <hr class="hr-footer">
 
@@ -663,4 +884,5 @@
     <script src="js/contacts-offices-time.js"></script>
     <script src="js/header.js"></script>
 </body>
+
 </html>
