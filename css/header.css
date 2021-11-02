@@ -3,17 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 
-header {
-   
-    @media (min-width: 1200px) {
-        
-    };
-
-    @media (min-width: 1200px) {
-        
-    };
-}
-
 div.main-menu {
     font-family: 'Fira Sans', sans-serif;
 }
@@ -70,9 +59,11 @@ li.burger-menu-li p {
 div.text-in-background {
     height: 855px;
     background-image: url(../img/header/backgroud-girl-header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
     min-width: 320px;
     max-width: 1920px;
-    margin: 0px auto;
+    margin: 0px 0px;
     padding: 72.69px 15px;
 }
 
